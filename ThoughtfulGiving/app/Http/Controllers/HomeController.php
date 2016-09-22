@@ -7,14 +7,11 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function index()
-    {
-        $users = User::all(); 
-
-        return view('users', compact('users')); 
-
-    } 
-    
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
     public function __construct()
     {
         $this->middleware('auth');
@@ -30,3 +27,4 @@ class HomeController extends Controller
         return view('home');
     }
 }
+

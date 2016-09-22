@@ -11,14 +11,14 @@
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
-                            <label for="name" class="col-md-4 control-label">Non-Profit Name</label>
+                            <label for="company" class="col-md-4 control-label">Non-Profit Name</label>
 
                             <div class="col-md-6">
-                                <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}">
+                                <input id="company" type="text" class="form-control" name="company" value="{{ old('company') }}">
 
-                                @if ($errors->has('name'))
+                                @if ($errors->has('company'))
                                     <span class="help-block">
-                                        <strong>{{ $errors->first('name') }}</strong>
+                                        <strong>{{ $errors->first('company') }}</strong>
                                     </span>
                                 @endif
                             </div>
@@ -39,10 +39,10 @@
                         </div>
 
                         <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
-                            <label for="name" class="col-md-4 control-label">Contact Phone Number</label>
+                            <label for="phoneNumber" class="col-md-4 control-label">Contact Phone Number</label>
 
                             <div class="col-md-6">
-                                <input id="phoneNumber" type="text" class="form-control" name="name" value="{{ old('phoneNumber') }}">
+                                <input id="phoneNumber" type="text" class="form-control" name="phoneNumber" value="{{ old('phoneNumber') }}">
 
                                 @if ($errors->has('phoneNumber'))
                                     <span class="help-block">
