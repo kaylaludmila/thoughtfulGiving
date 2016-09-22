@@ -1,6 +1,7 @@
 <?php
 
 namespace App;
+use Lists;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
@@ -12,7 +13,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'company','name', 'email','phoneNumber', 'password',
     ];
 
     /**
@@ -23,4 +24,10 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public function lists()
+    {
+    	return $this->hasMany(Lists::class); 
+    }
 }
+
