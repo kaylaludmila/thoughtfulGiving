@@ -1,17 +1,11 @@
 @extends('layout')
 
 @section('content')
-<div class="container">
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-            <div class="panel panel-default">
-                <div class="panel-heading">Welcome</div>
-
-                <div class="panel-body">
-                    Your Application's Landing Page.
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="row" style="padding:0px;">
+        <div class="carousel carousel-slider col l12 image-container" data-indicators="true">
+        <a class="carousel-item" href="#one!"><img src="css/imgs/music.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="css/imgs/dog.jpeg"></a>
+        <a class="carousel-item" href="#two!"><img src="css/imgs/orphan.jpg"></a>
+      </div>
 </div>
 @endsection

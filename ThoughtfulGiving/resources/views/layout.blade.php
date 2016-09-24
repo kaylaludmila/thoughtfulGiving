@@ -27,8 +27,10 @@
       <ul id="nav-mobile" class="right hide-on-med-and-down">
       <!-- Authentication Links -->
         @if (Auth::guest())
-            <li><a href="{{ url('/login') }}">Login</a></li>
-            <li><a href="{{ url('/register') }}">Register</a></li>
+            <li><a class="waves-effect waves-light btn modal-trigger" href=#loginModal>Login</a></li>
+             <li><a class="waves-effect waves-light btn modal-trigger" href=#registerModal>Register</a></li>
+             <!-- <li><a class="waves-effect waves-light btn" href="{{ url('/login') }}">Login</a></li>
+             <li><a class="waves-effect waves-light btn" href="{{ url('/register') }}">Register</a></li> -->
         @else
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -46,13 +48,13 @@
 
 
 <!-- Main Content -->
-  <div class="row tgBlue">
+  <div class="row">
 
     <div class="col l3 s12">
 
 <!-- Search panel -->
      <search>
-      <div class="nav-wrapper">
+      <div class="nav-wrapper tgBlue">
         <br><br>
         <h3 class="givingTxt center-align" style="margin-top:20%;">Giving Made Easy</h3>
         <br>
@@ -78,9 +80,9 @@
     </div>
 
 <!-- Where the right side of the content begins -->
-    <div class="col l9 s12">
+    <div class="col l9 s12 white">
+    
 
-    @yield('content')
 
 
     </div>
@@ -97,9 +99,37 @@
           </div>
     </footer>
 
+
+<!-- modals -->
+
+<div id="loginModal" class="modal">
+    <div class="modal-content">
+      <div class="row">
+       @yield('login')
+      </div>
+    </div>
+</div>
+
+
+<div id="registerModal" class="modal">
+    <div class="modal-content">
+      <div class="row">
+       @yield('register')
+      </div>
+    </div>
+</div>
+
+ style="color:" 
+
     <!-- JavaScripts -->
      <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  
+  <script type="text/javascript" src="js/materialize.js"></script>
+  
+  <script src="js/app.js"></script>
           
 </body>
 </html>
