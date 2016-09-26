@@ -9,6 +9,8 @@
 
      <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Slabo+27px" rel="stylesheet">
 
@@ -27,20 +29,18 @@
       <ul id="nav-mobile" class="right hide-on-med-and-down">
       <!-- Authentication Links -->
         @if (Auth::guest())
-            <li><a class="waves-effect waves-light btn modal-trigger" href=#loginModal>Login</a></li>
-             <li><a class="waves-effect waves-light btn modal-trigger" href=#registerModal>Register</a></li>
+          <ul id="dropdown1" class="dropdown-content tgPink">
+            <li><a class="modal-trigger tgGreen" href=#loginModal>Login</a></li>
+            <li><a class="modal-trigger tgGreen" href=#registerModal>Register</a></li>
+          </ul>
+            <!-- <li><a class="waves-effect waves-light btn modal-trigger" href=#loginModal>Login</a></li>
+             <li><a class="waves-effect waves-light btn modal-trigger" href=#registerModal>Register</a></li> -->
+             <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Charity Portal<i class="material-icons right">arrow_drop_down</i></a></li>
              <!-- <li><a class="waves-effect waves-light btn" href="{{ url('/login') }}">Login</a></li>
              <li><a class="waves-effect waves-light btn" href="{{ url('/register') }}">Register</a></li> -->
         @else
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                    {{ Auth::user()->name }} <span class="caret"></span>
-                </a>
-
-                <ul class="dropdown-menu" role="menu">
-                    <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
-                </ul>
-            </li>
+           <li> Welcome {{ Auth::user()->name }} </li>
+           <li><a class="waves-effect waves-light btn modal-trigger tgBlue" href="{{ url('/logout') }}">Logout</a></li>
         @endif
       </ul>
     </div>
@@ -80,9 +80,9 @@
     </div>
 
 <!-- Where the right side of the content begins -->
-    <div class="col l9 s12 white">
+    <div class="col l9 s12">
     
-
+    @yield('content')
 
 
     </div>
@@ -105,7 +105,61 @@
 <div id="loginModal" class="modal">
     <div class="modal-content">
       <div class="row">
-       @yield('login')
+       <br>
+      <div class="panel-heading">Non-Profit Login</div>
+      <div class="panel-body">
+          <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
+              {{ csrf_field() }}
+
+              <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+                  <label for="email" class="col-md-4 control-label">E-Mail Address</label>
+
+                  <div class="col-md-6">
+                      <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}">
+
+                      @if ($errors->has('email'))
+                          <span class="help-block">
+                              <strong>{{ $errors->first('email') }}</strong>
+                          </span>
+                      @endif
+                  </div>
+              </div>
+
+              <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+                  <label for="password" class="col-md-4 control-label">Password</label>
+
+                  <div class="col-md-6">
+                      <input id="password" type="password" class="form-control" name="password">
+
+                      @if ($errors->has('password'))
+                          <span class="help-block">
+                              <strong>{{ $errors->first('password') }}</strong>
+                          </span>
+                      @endif
+                  </div>
+              </div>
+
+  <!--             <div class="form-group">
+                  <div class="col-md-6 col-md-offset-4">
+                      <div class="checkbox">
+                          <label>
+                              <input type="checkbox" name="remember"> Remember Me
+                          </label>
+                      </div>
+                  </div>
+              </div> -->
+
+              <div class="form-group">
+                  <div class="col-md-6 col-md-offset-4">
+                      <button type="submit" class="btn btn-primary">
+                          <i class="fa fa-btn fa-sign-in"></i> Login
+                      </button>
+
+                     <!--  <a class="btn btn-link" href="{{ url('/password/reset') }}">Forgot Your Password?</a> -->
+                  </div>
+              </div>
+          </form>
+      </div>
       </div>
     </div>
 </div>
@@ -114,12 +168,114 @@
 <div id="registerModal" class="modal">
     <div class="modal-content">
       <div class="row">
-       @yield('register')
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-heading">Register</div>
+                <div class="panel-body">
+                    <form class="form-horizontal" role="form" method="POST" action="{{ url('/register') }}">
+                        {{ csrf_field() }}
+
+                        <div class="form-group{{ $errors->has('company') ? ' has-error' : '' }}">
+                            <label for="company" class="col-md-4 control-label">Non-Profit Name</label>
+
+                            <div class="col-md-6">
+                                <input id="company" type="text" class="form-control" name="company" value="{{ old('company') }}">
+
+                                @if ($errors->has('company'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('company') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
+                            <label for="name" class="col-md-4 control-label">Contact Name</label>
+
+                            <div class="col-md-6">
+                                <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}">
+
+                                @if ($errors->has('name'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('name') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <div class="form-group{{ $errors->has('phoneNumber') ? ' has-error' : '' }}">
+                            <label for="phoneNumber" class="col-md-4 control-label">Contact Phone Number</label>
+
+                            <div class="col-md-6">
+                                <input id="phoneNumber" type="text" class="form-control" name="phoneNumber" value="{{ old('phoneNumber') }}">
+
+                                @if ($errors->has('phoneNumber'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('phoneNumber') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+                            <label for="email" class="col-md-4 control-label">Contact Email Address</label>
+
+                            <div class="col-md-6">
+                                <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}">
+
+                                @if ($errors->has('email'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+                            <label for="password" class="col-md-4 control-label">Password</label>
+
+                            <div class="col-md-6">
+                                <input id="password" type="password" class="form-control" name="password">
+
+                                @if ($errors->has('password'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('password') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <div class="form-group{{ $errors->has('password_confirmation') ? ' has-error' : '' }}">
+                            <label for="password-confirm" class="col-md-4 control-label">Confirm Password</label>
+
+                            <div class="col-md-6">
+                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation">
+
+                                @if ($errors->has('password_confirmation'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('password_confirmation') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-6 col-md-offset-4">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fa fa-btn fa-user"></i> Register
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
       </div>
     </div>
 </div>
 
- style="color:" 
 
     <!-- JavaScripts -->
      <!-- Compiled and minified JavaScript -->

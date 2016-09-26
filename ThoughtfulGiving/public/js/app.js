@@ -40,14 +40,15 @@ $(document).ready(function(){
       dismissible: true;
       closeIcon: true
       $('.close').closeModal();
-       $('.carousel').carousel();
+      $('.carousel').carousel();
+      $(".dropdown-button").dropdown();
 
-       $('input.autocomplete').autocomplete({
-    data: {
-      "Clothing": null,
-      "Food": null,
-      "Pet Supplies": null,
-      }
+      $('input.autocomplete').autocomplete({
+        data: {
+          "Clothing": null,
+          "Food": null,
+          "Pet Supplies": null,
+          }
     });
   });
 

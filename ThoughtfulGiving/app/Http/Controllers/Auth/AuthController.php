@@ -28,7 +28,7 @@ class AuthController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/';
+    protected $redirectTo = '/charityPortal';
 
     /**
      * Create a new authentication controller instance.
@@ -66,6 +66,8 @@ class AuthController extends Controller
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
+            'company' => $data['company'],
+            'phoneNumber' => $data['phoneNumber'],
             'password' => bcrypt($data['password']),
         ]);
     }

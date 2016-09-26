@@ -18,7 +18,9 @@ body {
 	width: 70% !important;
 
 }
-
+.orphan{
+	background-image: url("imgs/musicDark.jpg");
+}
 
 .img-container{ 
 	background-color: #000000; 
@@ -55,6 +57,18 @@ nav {
 	background-color:#479ac4;
 }
 
+.tgPinkBG{
+	background-color:#ed4871;
+}
+
+.tgPink{
+	color:#ed4871 !important;
+}
+
+.tgGreen{
+	color:#27c68e !important;
+}
+
 .blue{
 	color:586994;
 }
@@ -86,3 +100,5 @@ footer.page-footer .footer-copyright {
 	width: 40% !important  
 } 
 
+.carousel .carousel-item {
+height:630px !important;}

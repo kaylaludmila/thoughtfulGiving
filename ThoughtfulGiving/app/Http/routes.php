@@ -11,14 +11,17 @@
 |
 */
 
-// Route::get('/', function () {
+// Route::get('/welcome', function () {
 //     return view('home');
 // });
 
 Route::auth();
 
-Route::get('/', 'HomeController@index');
+Route::get('/charityPortal', 'HomeController@index');
 
+Route::get('/welcome', 'HomeController@welcome');
+
+Route::resource('/', 'GuestController');
 
 
 // Route::get('welcome', function() {
