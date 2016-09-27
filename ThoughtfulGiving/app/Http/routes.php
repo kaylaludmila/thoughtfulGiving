@@ -23,6 +23,17 @@ Route::get('/welcome', 'HomeController@welcome');
 
 Route::resource('/', 'GuestController');
 
+Route::get('/dog', function () {
+    return view('dog');
+});
+
+Route::get('/music', function () {
+    return view('music');
+});
+
+Route::get('/searchResults', function () {
+    return view('searchResults');
+});
 
 // Route::get('welcome', function() {
 // 	return view('welcome'); 
