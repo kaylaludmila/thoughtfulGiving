@@ -7,7 +7,7 @@
 <!-- Charity page content  -->
 
 
-<img height="262" src="css/imgs/bentley.jpg" alt="" class="z-depth-2 responsive-img">
+<img height="262" src="css/imgs/music-hero.jpg" alt="" class="z-depth-2 responsive-img">
 
       <div class= "row valign-wrapper">
           <div class="col s12 m6 l2">
