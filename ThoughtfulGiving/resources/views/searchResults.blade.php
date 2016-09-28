@@ -15,7 +15,7 @@
 		</thead>
 		<tbody>
 		    <tr>
-		        <td>Music Matters <a class="btn waves-effect tgPinkBG white-text darken-text-2 right-align"" href="/music">Learn More</a></td> 
+		        <td>Music Matters <a class="btn waves-effect tgPinkBG white-text darken-text-2 right-align right" href="/music">Learn More</a></td> 
 		    </tr>
 		    <tr>
 		        <td>Finding Fido</td>
