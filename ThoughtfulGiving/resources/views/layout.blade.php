@@ -39,7 +39,7 @@
              <!-- <li><a class="waves-effect waves-light btn" href="{{ url('/login') }}">Login</a></li>
              <li><a class="waves-effect waves-light btn" href="{{ url('/register') }}">Register</a></li> -->
         @else
-           <li> Welcome {{ Auth::user()->name }} </li>
+           <li><a href="{{ url('/charityPortal') }}"> {{ Auth::user()->company }} </li></a>
            <li><a class="waves-effect waves-light btn modal-trigger tgBlue" href="{{ url('/logout') }}">Logout</a></li>
         @endif
       </ul>

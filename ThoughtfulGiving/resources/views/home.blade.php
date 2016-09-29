@@ -10,14 +10,14 @@
 <img height="262" src="css/imgs/bentley.jpg" alt="" class="z-depth-2 responsive-img">
 
 <div class= "row valign-wrapper">
-    <div class="col s12 m6 l2">
-        <img src="css/imgs/fidos2.png" alt="" class="z-depth-2 responsive-img left-align">
-    </div>
+<!--     <div class="col s12 m6 l2">
+       
+    </div> -->
     <div class="col s12 m12 l9 valign">
         <div>
-            <h1> {{ Auth::user()->company }}</h1>
+            <h1> Hello {{ Auth::user()->company }}</h1>
         </div>
-        <p class="left-align s12 m12" style="font-size:17px;">Mission: To rescue all the pups in the world and find them happy homes.</p>
+        <p class="left-align s12 m12" style="font-size:17px;">Add more items to your wish list</p>
     </div>
 </div>
 
