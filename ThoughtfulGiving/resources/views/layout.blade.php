@@ -286,10 +286,10 @@
                         </div>
 
                         <div class="form-group{{ $errors->has('bannerURL') ? ' has-error' : '' }}">
-                            <label for="mission" class="col-md-4 control-label">Non-Profit's Banner Image</label>
+                            <label for="bannerURL" class="col-md-4 control-label">Non-Profit's Banner Image</label>
 
                             <div class="col-md-6">
-                                <input id="bannerURL" type="text" class="form-control" name="mission" value="{{ old('bannerURL') }}">
+                                <input id="bannerURL" type="text" class="form-control" name="bannerURL" value="{{ old('bannerURL') }}">
 
                                 @if ($errors->has('bannerURL'))
                                     <span class="help-block">
