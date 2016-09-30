@@ -7,7 +7,7 @@
 <div class="col l1 s12"></div>
 
 <div class="col l10 s12 white valign-wrapper">
-	<table class="striped">
+<!-- 	<table class="striped">
 	  <thead>
 		    <tr>
 		      <th data-field="id" style="font-size:30px; color:#479ac4;">Search Results</th>
@@ -24,10 +24,16 @@
 		        <td>Children Charity</td>
 		    </tr>
 		</tbody>
-	</table>
+	</table> -->
 </div>
 
 <div class="col l1 s12"></div>
+
+<ul>
+	@foreach ($items as $item)
+		<li>{{ $item -> item }}</li>
+	@endforeach
+</ul>
 
 
 @endsection

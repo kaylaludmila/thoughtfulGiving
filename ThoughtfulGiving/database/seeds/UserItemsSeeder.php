@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class UserListsSeeder extends Seeder
+class UserItemsSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,6 +11,6 @@ class UserListsSeeder extends Seeder
      */
     public function run()
     {
-        //
+        
     }
 }

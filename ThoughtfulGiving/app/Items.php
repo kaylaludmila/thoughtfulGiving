@@ -1,16 +1,16 @@
 <?php
 
-namespace App;
+namespace App; 
 
-use User; 
 use Illuminate\Database\Eloquent\Model;
 
-class Lists extends Model
-{
-    protected $fillable = ['body']; 
+class Items extends Model
 
+{
     public function user()
     {
+    	// protected $fillable =['item']; 
+
     	return $this->belongsTo(User::class); 
     }
 }

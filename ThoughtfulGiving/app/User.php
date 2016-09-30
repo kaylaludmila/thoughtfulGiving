@@ -1,7 +1,7 @@
 <?php
 
 namespace App;
-use Lists;
+
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
@@ -25,9 +25,9 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    public function lists()
+    public function items()
     {
-    	return $this->hasMany(Lists::class); 
+    	return $this->hasMany(Items::class); 
     }
 }
 
