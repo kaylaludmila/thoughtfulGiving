@@ -1,13 +1,11 @@
 @extends('layout')
 
 @section('content')
- <div class="col l9 s12 white">
+ <div class="col l9 s12 white z-depth-2" style="padding-top:50px">
 <br>
+<!-- <img height="262" src="css/imgs/music-hero.jpg" alt="" class="z-depth-2 responsive-img"> -->
 
 <!-- Charity page content  -->
-
-
-<img height="262" src="css/imgs/bentley.jpg" alt="" class="z-depth-2 responsive-img">
 
 <div class= "row valign-wrapper">
 <!--     <div class="col s12 m6 l2">
@@ -15,53 +13,52 @@
     </div> -->
     <div class="col s12 m12 l9 valign">
         <div>
-            <h1> Hello {{ Auth::user()->company }}</h1>
+            <h1> Hello {{ Auth::user()->company }}!</h1>
         </div>
-        <p class="left-align s12 m12" style="font-size:17px;">Add more items to your wish list</p>
+        <p class="left-align s12 m12" style="font-size:17px;">Add some more items to your wish list</p>
     </div>
 </div>
 
 <div class="row">
+    <div class="col s12 l3">
+    </div>
+  
+        <form>
+            <div class="input-field col s6 l6 valign-wrapper">
+              <i class="material-icons prefix tgPink">redeem</i>
+              <input id="icon_prefix" type="text" class="validate tgPink">
+              <label for="icon_prefix blue">What are you in need of?</label>
+              <a style="margin-left:20px" class="waves-effect waves-light btn">Add</a>
+            </div>
+        </form>
+</div>
+
+<div class="row" style="margin-bottom:100px">
     <div class="col s12 l3"></div>
 
-        <div class="col s12 m4 l4">
+    <div class="col s12 m4 l4 valign">
         <table class="striped">
             <thead>
-                <tr>
-                  <th data-field="id" style="font-size:30px; color:#479ac4;">Wish List</th>
-                </tr>
+              <tr>
+                  <th data-field="id" style="font-size:30px; color:#479ac4;">Your Wish List</th>
+              </tr>
             </thead>
+
             <tbody>
-                <tr>
-                    <td>Dog Kibble</td>
-                </tr>
-                <tr>
-                    <td>Leashes</td>
-                </tr>
-                <tr>
-                    <td>Paper Towels</td>
-                </tr>
+              <tr>
+                <td>Keyboards</td>
+              </tr>
+              <tr>
+                <td>Headphones</td>
+              </tr>
+              <tr>
+                <td>Drum Set</td>
+              </tr>
             </tbody>
         </table>
-    <br>
-        <a class="waves-effect waves-light btn" style="background-color:#ed4871;">Donate Funds</a>
-        </div>
-
-    <div class="col s12 m1 l1"></div>
-
-    <div class="col s12 m4 l3">
-        <div class="card">
-            <div class="card-image">
-                <img src="css/imgs/maps.jpg">
-            </div>
-            <div class="card-content">
-                <p>Contact: <br>{{ Auth::user()->name }}<br>{{ Auth::user()->email }}</p>
-            </div>
-            <div class="card-action">
-                <a href="#" style="color:#479ac4 !important;">This is a link</a>
-            </div>
-        </div>
     </div>
+</div>
+
 
 
 </div>
