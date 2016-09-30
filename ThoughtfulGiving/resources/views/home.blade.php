@@ -45,15 +45,16 @@
             </thead>
 
             <tbody>
+              @foreach ($items as $item)
               <tr>
-                <td>Keyboards</td>
+                <td>
+                  
+                    {{ $item -> item }}
+                 
+                </td>
+                
               </tr>
-              <tr>
-                <td>Headphones</td>
-              </tr>
-              <tr>
-                <td>Drum Set</td>
-              </tr>
+                @endforeach
             </tbody>
         </table>
     </div>
