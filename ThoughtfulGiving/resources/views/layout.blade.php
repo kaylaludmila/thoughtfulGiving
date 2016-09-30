@@ -63,7 +63,7 @@
         <div class="input-field" style="color:white;">
           <select>
             <option value="" disabled selected>Donation Options</option>
-            <option value="1">Clothing</option>
+            <option href="/searchResults{{petsupplies}}">Clothing</option>
             <option value="2">Food</option>
             <option value="3">Pet Supplies</option>
           </select>
