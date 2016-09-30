@@ -56,14 +56,13 @@
      <search>
       <div class="nav-wrapper tgBlue">
         <br><br>
-        <h3 class="givingTxt center-align" style="margin-top:20%;">Giving Made Easy</h3>
+       <a class="givingTxt center-align" href="/searchResults"  style="margin-top:20%;">Giving Made Easy</a>
         <br>
         <p class="center-align" style="font-size:20px; color:white;">What would you like to donate? </p>
 
         <div class="input-field" style="color:white;">
           <select>
             <option value="" disabled selected>Donation Options</option>
-            <option href="/searchResults{{petsupplies}}">Clothing</option>
             <option value="2">Food</option>
             <option value="3">Pet Supplies</option>
           </select>
@@ -358,12 +357,9 @@
 
     <!-- JavaScripts -->
      <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  
-  <script type="text/javascript" src="js/materialize.js"></script>
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+<!--   <script type="text/javascript" src="js/materialize.js"></script>  -->
   <script src="js/app.js"></script>
           
 </body>

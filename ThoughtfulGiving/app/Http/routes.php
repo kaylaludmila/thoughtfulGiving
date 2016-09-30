@@ -38,3 +38,5 @@ Route::get('/music', function () {
 // Route::get('item/ {item}', 'searchResultsController@show'); 
 
 Route::resource('/searchResults', 'searchResultsController@index'); 
+
+// Route::resource('/searchResults', 'searchResultsController@show'); 

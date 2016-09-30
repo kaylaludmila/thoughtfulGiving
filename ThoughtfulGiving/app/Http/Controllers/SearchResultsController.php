@@ -19,7 +19,7 @@ class SearchResultsController extends Controller
      */
     public function index()
     {
-        // $books = App\Book::with('author')->get();
+
 
         $items = Items::with('user')->get();
 
@@ -53,9 +53,9 @@ class SearchResultsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show()
     {
-        // return view('SearchResultsController.show', compact('item')); 
+        return view('searchResults', compact('items')); 
     }
 
     /**

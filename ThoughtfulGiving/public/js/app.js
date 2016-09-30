@@ -42,14 +42,15 @@ $(document).ready(function(){
       $('.close').closeModal();
       $('.carousel').carousel();
       $(".dropdown-button").dropdown();
+      $('select').material_select(); 
 
-      $('input.autocomplete').autocomplete({
+      /*$('input.autocomplete').autocomplete({
         data: {
           "Clothing": null,
           "Food": null,
           "Pet Supplies": null,
           }
-    });
+    });*/
   });
 
 $('.carousel.carousel-slider').carousel({
