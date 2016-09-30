@@ -21,7 +21,7 @@ Route::get('/charityPortal', 'HomeController@index');
 
 Route::get('/welcome', 'HomeController@welcome');
 
-Route::resource('/', 'GuestController');
+Route::resource('/', 'GuestController@index');
 
 Route::get('/dog', function () {
     return view('dog');
@@ -31,10 +31,10 @@ Route::get('/music', function () {
     return view('music');
 });
 
-Route::get('/searchResults', function () {
-    return view('searchResults');
-});
+// Route::get('/searchResults', function () {
+//     return view('searchResults');
+// });
 
-// Route::get('welcome', function() {
-// 	return view('welcome'); 
-// }); 
+// Route::get('item/ {item}', 'searchResultsController@show'); 
+
+Route::resource('/searchResults', 'searchResultsController@index'); 

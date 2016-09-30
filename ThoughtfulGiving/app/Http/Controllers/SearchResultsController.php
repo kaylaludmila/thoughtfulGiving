@@ -6,6 +6,10 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
+use App\User;
+use App\Items; 
+  
+
 class SearchResultsController extends Controller
 {
     /**
@@ -15,7 +19,11 @@ class SearchResultsController extends Controller
      */
     public function index()
     {
-        //
+        // $books = App\Book::with('author')->get();
+
+        $items = Items::with('user')->get();
+
+        return view('searchResults', compact('items')); 
     }
 
     /**
@@ -47,7 +55,7 @@ class SearchResultsController extends Controller
      */
     public function show($id)
     {
-        //
+        // return view('SearchResultsController.show', compact('item')); 
     }
 
     /**

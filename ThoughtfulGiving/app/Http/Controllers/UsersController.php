@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
+use searchResults; 
+
 class UsersController extends Controller
 {
     /**
@@ -15,9 +17,9 @@ class UsersController extends Controller
      */
     public function index()
     {
-        $users = User::all(); 
+        $users = User::all(); //shows all users
 
-        return view('users', compact('users')); 
+        return view('welcome', compact('users')); 
     }
 
     /**
