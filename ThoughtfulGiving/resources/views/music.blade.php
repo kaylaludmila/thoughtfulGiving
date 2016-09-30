@@ -11,11 +11,11 @@
 
       <div class= "row valign-wrapper">
           <div class="col s12 m6 l2">
-            <img src="css/imgs/fidos2.png" alt="" class="z-depth-2 responsive-img left-align">
+            <img src="css/imgs/musicMatters.jpg" alt="" class="z-depth-2 responsive-img left-align">
           </div>
       <div class="col s12 m12 l9 valign">
-        <h1> Music Matters</h1>
-        <p class="left-align s12 m12" style="font-size:17px;">Mission: Being music to everyone.</p>
+        <h1> Music for Many</h1>
+        <p class="left-align s12 m12" style="font-size:17px;">Mission: Bring music to under privileged youth around the world.</p>
         </div>
       </div>
 
