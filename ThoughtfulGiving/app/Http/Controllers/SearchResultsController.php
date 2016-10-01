@@ -55,7 +55,7 @@ class SearchResultsController extends Controller
      */
     public function show()
     {
-        return view('searchResults', compact('items')); 
+        return view({'user_id'}); 
     }
 
     /**
