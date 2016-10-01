@@ -56,27 +56,20 @@
      <search>
       <div class="nav-wrapper tgBlue">
         <br><br>
-       <a class="givingTxt center-align" href="/searchResults"  style="margin-top:20%;">Giving Made Easy</a>
+       <h3 class="givingTxt center-align" style="margin-top:20%;">Giving Made Easy</h3>
         <br>
-        <p class="center-align" style="font-size:20px; color:white;">What would you like to donate? </p>
 
-        <div class="input-field" style="color:white;">
-          <select>
-            <option value="" disabled selected>Donation Options</option>
-            <option value="2">Food</option>
-            <option value="3">Pet Supplies</option>
-          </select>
-        </div>
+        <a class="dropdown-button valign-wrapper center-align" style="color:white; text-align:center; font-size:20px; margin-left:25px;" href="#!" data-activates="dropdown2">What would you like to donate?<i class="material-icons right">arrow_drop_down</i></a>
 
-<!--           <nav>
-          <form>
-            <div class="input-field" style="margin-bottom:20px;">
-              <input id="search" type="search" required>
-              <label for="search"><i class="material-icons">search</i></label>
-              <i class="material-icons">close</i>
-            </div>
-          </form>
-          </nav> -->
+        <ul id="dropdown2" class="dropdown-content center-align" style="min-width: 190px;">
+            <li><a href="/searchResults">Food</a></li>
+            <li><a href="/searchResults">Clothing</a></li>
+            <li><a href="/searchResults">Pet Supplies</a></li>
+        </ul>
+        <br>
+        <br>
+        <br>
+
           <div class="valign-wrapper">
             <img height="500" src="css/imgs/heart-pink.jpg" alt="heart" class="valign-wrapper z-depth-2 responsive-img center-align" style="margin: auto; width: 80%;">
           </div>

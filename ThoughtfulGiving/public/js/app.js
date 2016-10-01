@@ -43,19 +43,10 @@ $(document).ready(function(){
       $('.carousel').carousel();
       $(".dropdown-button").dropdown();
       $('select').material_select(); 
-
-      /*$('input.autocomplete').autocomplete({
-        data: {
-          "Clothing": null,
-          "Food": null,
-          "Pet Supplies": null,
-          }
-    });*/
   });
 
 $('.carousel.carousel-slider').carousel({
   full_width: true,
-  // height: 100,
 });
 autoplay();
 function autoplay() {
@@ -65,6 +56,8 @@ function autoplay() {
 $(document).ready(function() {
     $('input#input_text, textarea#textarea1').characterCounter();
   });
+
+$("select").closest('.input-field').children('.select-wrapper').children("span").html("");
 
 
  
