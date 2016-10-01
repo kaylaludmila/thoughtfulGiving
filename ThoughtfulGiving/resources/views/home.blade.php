@@ -24,11 +24,13 @@
     </div>
   
         <form>
+          {{ csrf_field() }}
+          {{method_field('PUT') }}
             <div class="input-field col s6 l6 valign-wrapper">
               <i class="material-icons prefix tgPink">redeem</i>
               <input id="icon_prefix" type="text" class="validate tgPink">
-              <label for="icon_prefix blue">What are you in need of?</label>
-              <a style="margin-left:20px" class="waves-effect waves-light btn">Add</a>
+              <label for="icon_prefix blue items">What are you in need of?</label>
+              <input type="submit" value="Add" style="margin-left:20px" class="waves-effect waves-light btn" />
             </div>
         </form>
 </div>
