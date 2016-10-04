@@ -8,6 +8,7 @@
 <div class="col l10 s12 white">
 
 <div class="panel-heading"><h3>Register a Non-Profit</h3></div>
+<p> It's easy to do! Simply fill out the form below to create your free page.</p>
 
 <form class="form-horizontal" role="form" method="POST" action="{{ url('/register') }}">
 {{ csrf_field() }}
@@ -50,31 +51,52 @@
         </div>
     </div>
 </div>
-
+<!-- 
 <div class="row">
-    <div class="input-field col s6">
-        <div class="form-group{{ $errors->has('logoURL') ? ' has-error' : '' }}">
-          <input id="logoURL" type="text" class="form-control" name="logoURL" value="{{ old('logoURL') }}">
-          <label for="logoURL" class="control-label">Logo Image</label>
-            @if ($errors->has('logoURL'))
-            <span class="help-block">
-                <strong>{{ $errors->first('logoURL') }}</strong>
-            </span>
-            @endif
-        </div>
-    </div>
-        <div class="input-field col s6">
-        <div class="form-group{{ $errors->has('bannerURL') ? ' has-error' : '' }}">
-          <input id="bannerURL" type="text" class="form-control" name="bannerURL" value="{{ old('bannerURL') }}">
-          <label for="bannerURL" class="control-label">Banner Image</label>
-            @if ($errors->has('bannerURL'))
-            <span class="help-block">
-                <strong>{{ $errors->first('bannerURL') }}</strong>
-            </span>
-            @endif
-        </div>
+    <div class="col s12">
+    <form action="#">
+        <p> What type of donations do you primarily need?</p>
+          <input class="with-gap" name="group1" type="radio" id="test1" />
+          <label style="margin-left:10px;" for="test1">Clothing</label>
+
+          <input class="with-gap" name="group1" type="radio" id="test2" />
+          <label style="margin-left:10px;" for="test2">Food</label>
+
+          <input class="with-gap" name="group1" type="radio" id="test3"  />
+          <label style="margin-left:10px;" for="test3">Pet Supplies</label>
+
+          <input class="with-gap" name="group1" type="radio" id="test4"  />
+          <label style="margin-left:10px;" for="test4">Other</label>
+      </form>
     </div>
 </div>
+
+<div class="row">
+  <form action="#">
+    <div class="file-field input-field col s6">
+      <div class="btn tgBlue">
+        <span>upload</span>
+        <input type="file">
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text" placeholder="Upload your logo">
+      </div>
+    </div>
+  </form>
+
+  <form action="#">
+    <div class="file-field input-field col s6">
+      <div class="btn tgBlue">
+        <span>upload</span>
+        <input type="file">
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text" placeholder="Upload your banner image">
+      </div>
+    </div>
+  </form>
+
+</div> -->
 
 
 <div class="row">
@@ -154,11 +176,39 @@
 
 <div class="form-group">
     <div class="col-md-6 col-md-offset-4" style="margin-bottom:25px;">
-        <button type="submit" class="btn btn-primary">
+        <button type="submit" class="btn-large tgPinkBG">
             <i class="fa fa-btn fa-user"></i> Register
         </button>
     </div>
 </div>
+
+
+<div class="row">
+    <div class="input-field col s6">
+        <div class="form-group{{ $errors->has('logoURL') ? ' has-error' : '' }}">
+          <input id="logoURL" type="text" class="form-control" name="logoURL" value="{{ old('logoURL') }}">
+          <label for="logoURL" class="control-label">Logo Image</label>
+            @if ($errors->has('logoURL'))
+            <span class="help-block">
+                <strong>{{ $errors->first('logoURL') }}</strong>
+            </span>
+            @endif
+        </div>
+    </div>
+        <div class="input-field col s6">
+        <div class="form-group{{ $errors->has('bannerURL') ? ' has-error' : '' }}">
+          <input id="bannerURL" type="text" class="form-control" name="bannerURL" value="{{ old('bannerURL') }}">
+          <label for="bannerURL" class="control-label">Banner Image</label>
+            @if ($errors->has('bannerURL'))
+            <span class="help-block">
+                <strong>{{ $errors->first('bannerURL') }}</strong>
+            </span>
+            @endif
+        </div>
+    </div>
+</div>
+
+
 </form>
 
 </div>
