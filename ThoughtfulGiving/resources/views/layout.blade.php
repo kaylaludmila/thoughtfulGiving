@@ -24,56 +24,53 @@
 
 <!-- navigation bar -->
 <nav>
-    <div class="nav-wrapper">
-      <a href="/" class="brand-logo">Thoughtful Giving</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <!-- Authentication Links -->
-        @if (Auth::guest())
-          <ul id="dropdown1" class="dropdown-content tgPink">
-            <li><a class="modal-trigger tgGreen" href=#loginModal>Login</a></li>
-            <li><a class="tgGreen" href="/charityRegister">Register</a></li>
-          </ul>
-             <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Charity Portal<i class="material-icons right">arrow_drop_down</i></a></li>
-        @else
-           <li><a href="{{ url('/charityPortal') }}"> {{ Auth::user()->company }} </li></a>
-           <li><a class="waves-effect waves-light btn modal-trigger tgBlue" href="{{ url('/logout') }}">Logout</a></li>
-        @endif
-      </ul>
-    </div>
-  </nav>
+  <div class="nav-wrapper">
+    <a href="/" class="brand-logo">Thoughtful Giving</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+    <!-- Authentication Links -->
+      @if (Auth::guest())
+        <ul id="dropdown1" class="dropdown-content tgPink">
+          <li><a class="modal-trigger tgGreen" href=#loginModal>Login</a></li>
+          <li><a class="tgGreen" href="/charityRegister">Register</a></li>
+        </ul>
+           <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Charity Portal<i class="material-icons right">arrow_drop_down</i></a></li>
+      @else
+         <li><a href="{{ url('/charityPortal') }}"> {{ Auth::user()->company }} </li></a>
+         <li><a class="waves-effect waves-light btn modal-trigger tgBlue" href="{{ url('/logout') }}">Logout</a></li>
+      @endif
+    </ul>
+  </div>
+</nav>
 
 
 <!-- Main Content -->
-  <div class="row">
+<div class="row">
 
-    <div class="col l3 s12">
+<div class="col l3 s12">
 
 <!-- Search panel -->
-     <search>
-      <div class="nav-wrapper tgBlue">
-        <br><br>
-       <h3 class="givingTxt center-align" style="margin-top:20%;">Giving Made Easy</h3>
-        <br>
+<search>
+  <div class="nav-wrapper tgBlue">
+  <br><br>
+  <h3 class="givingTxt center-align" style="margin-top:20%;">Giving Made Easy</h3>
+  <br>
 
-        <a class="dropdown-button valign-wrapper center-align" style="color:white; text-align:center !important; font-size:20px; margin-left:25px;" href="#!" data-activates="dropdown2">What would you like to donate?<i class="material-icons right">arrow_drop_down</i></a>
+  <a class="dropdown-button valign-wrapper center-align" style="color:white; text-align:center !important; font-size:20px; margin-left:25px;" href="#!" data-activates="dropdown2">What would you like to donate?<i class="material-icons right">arrow_drop_down</i></a>
 
-        <ul id="dropdown2" class="dropdown-content center-align" style="min-width: 190px;">
-            <li><a href="/searchResults">Food</a></li>
-            <li><a href="/searchResults">Clothing</a></li>
-            <li><a href="/searchResults">Pet Supplies</a></li>
-        </ul>
-        <br>
-        <br>
-        <br>
-
-          <div class="valign-wrapper">
-            <img height="500" src="css/imgs/heart-pink.jpg" alt="heart" class="valign-wrapper responsive-img center-align z-depth-2" href="google.com" style="margin: auto; width: 80%;">
-          </div>
-      </div>
-    </search>
-    <br>
-
+    <ul id="dropdown2" class="dropdown-content center-align" style="min-width: 190px;">
+      <li><a href="/searchResults">Food</a></li>
+      <li><a href="/searchResults">Clothing</a></li>
+      <li><a href="/searchResults">Pet Supplies</a></li>
+    </ul>
+  <br><br><br>
+    <div class="valign-wrapper">
+          <img height="500" src="css/imgs/heart-pink.jpg" alt="heart" class="valign-wrapper responsive-img center-align z-depth-2" href="google.com" style="margin: auto; width: 80%;">
     </div>
+    </div>
+</search>
+<br>
+
+</div>
 
 <!-- Where the right side of the content begins -->
 
@@ -88,12 +85,11 @@
   </div>
 
 <!-- footer -->
-    <footer class="page-footer">
-          <div class="footer-copyright">
-            <div class="container pinkT">
-            </div>
-          </div>
-    </footer>
+<footer class="page-footer">
+  <div class="footer-copyright">
+    <div class="container pinkT"></div>
+  </div>
+</footer>
 
 
 <!-- modal -->

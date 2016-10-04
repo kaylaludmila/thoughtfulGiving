@@ -33,15 +33,15 @@ class HomeController extends Controller
         return view('home', compact('items')); 
        
     }
-    public function update(Request $request, $id)
+    public function store(Request $request)
     {
 
-        $items = Items::find($user_id);
-        $items->item = json_encode([$request->item]);
+        $newItem = new Item;
+        $newItem->item = $request->item;
 
-        $items->save();
+        $newItem->save();
 
-        return view('home', compact('items'));
+        return redirect()->action('HomeController@show', [$newItem]);
     }
 
 
