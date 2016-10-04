@@ -23,7 +23,8 @@ class SearchResultsController extends Controller
 
         $items = Items::with('user')->get();
 
-        return view('searchResults', compact('items')); 
+        return view('searchResults', compact('items'));
+
     }
 
     /**

@@ -27,6 +27,10 @@ Route::get('/dog', function () {
     return view('dog');
 });
 
+Route::get('/charityRegister', function () {
+    return view('charityRegister');
+});
+
 Route::get('/music', function () {
     return view('music');
 });
