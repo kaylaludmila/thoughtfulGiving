@@ -65,6 +65,8 @@ class AuthController extends Controller
      */
     protected function create(array $data)
     {
+
+        var_export($data);
         return User::create([
             'company' => $data['company'],
             'firstName' => $data['firstName'],
@@ -73,6 +75,7 @@ class AuthController extends Controller
             'mission' => $data['mission'],
             'siteLink' => $data['siteLink'],
             'logoURL'=> $data['logoURL'],
+            'category'=> $data['category'],
             'bannerURL'=> $data['bannerURL'],
             'phoneNumber' => $data['phoneNumber'],
             'password' => bcrypt($data['password']),

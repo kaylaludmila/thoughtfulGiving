@@ -51,27 +51,32 @@
         </div>
     </div>
 </div>
-<!-- 
+
 <div class="row">
-    <div class="col s12">
-    <form action="#">
+    <div class="input-field col s12">
+        <div class="form-group{{ $errors->has('category') ? ' has-error' : '' }}">
         <p> What type of donations do you primarily need?</p>
-          <input class="with-gap" name="group1" type="radio" id="test1" />
-          <label style="margin-left:10px;" for="test1">Clothing</label>
+          <input class="with-gap form-control" name="category" type="radio" value="clothing" id="clothing" />
+          <label style="margin-left:10px;" for="clothing">Clothing</label>
 
-          <input class="with-gap" name="group1" type="radio" id="test2" />
-          <label style="margin-left:10px;" for="test2">Food</label>
+          <input class="with-gap form-control" name="category" value="food" type="radio" id="food" />
+          <label style="margin-left:10px;" for="food">Food</label>
 
-          <input class="with-gap" name="group1" type="radio" id="test3"  />
-          <label style="margin-left:10px;" for="test3">Pet Supplies</label>
+          <input class="with-gap form-control" name="category" value="petSupplies" type="radio" id="petSupplies"  />
+          <label style="margin-left:10px;" for="petSupplies">Pet Supplies</label>
 
-          <input class="with-gap" name="group1" type="radio" id="test4"  />
-          <label style="margin-left:10px;" for="test4">Other</label>
-      </form>
+          <input class="with-gap form-control" name="category" value="other" type="radio" id="other"  />
+          <label style="margin-left:10px;" for="other">Other</label>
+
+        @if ($errors->has('category'))
+            <span class="help-block">
+                <strong class="tgPink">{{ $errors->first('category') }}</strong>
+            </span>
+        @endif
     </div>
 </div>
 
-<div class="row">
+<!-- <div class="row">
   <form action="#">
     <div class="file-field input-field col s6">
       <div class="btn tgBlue">
