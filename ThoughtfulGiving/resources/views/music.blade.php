@@ -60,7 +60,7 @@
               <p>For More Info: <br>Karyn Sue<br>Karyn@gmail.com</p>
             </div>
             <div class="card-action">
-              <a href="#" style="color:#479ac4 !important;">This is a link</a>
+              <a href="#" style="color:#479ac4 !important;">Offical Website</a>
             </div>
         </div>
     </div>

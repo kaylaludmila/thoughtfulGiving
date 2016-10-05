@@ -124,7 +124,7 @@
                       <input id="password" type="password" class="form-control" name="password">
 
                       @if ($errors->has('password'))
-                          <span class="help-block">
+                          <span class="help-block modal-trigger">
                               <strong>{{ $errors->first('password') }}</strong>
                           </span>
                       @endif

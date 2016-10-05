@@ -58,7 +58,7 @@
                 <p>Contact: <br>{{ Auth::user()->name }}<br>{{ Auth::user()->email }}</p>
             </div>
             <div class="card-action">
-                <a href="#" style="color:#479ac4 !important;">This is a link</a>
+                <a href="#" style="color:#479ac4 !important;">Offical Website</a>
             </div>
         </div>
     </div>
