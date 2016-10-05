@@ -44,3 +44,5 @@ Route::get('/music', function () {
 Route::resource('/searchResults', 'searchResultsController@index'); 
 
 // Route::resource('/searchResults', 'searchResultsController@show'); 
+
+Route::post('/charityPortal', 'HomeController@addItem'); 

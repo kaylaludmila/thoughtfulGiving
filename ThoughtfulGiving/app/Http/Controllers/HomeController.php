@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 use App\User;
 use App\Items; 
+use Auth;
 
 class HomeController extends Controller
 {
@@ -28,23 +29,32 @@ class HomeController extends Controller
     public function index()
     {
 
-        $items = Items::with('user')->get();
+        $user = User::find(Auth::user()->id);
+
+        $items = $user->items()->get();
 
         return view('home', compact('items')); 
        
     }
-    public function store(Request $request)
+    public function addItem(Request $request)
     {
+        $items = new Items;
 
-        $newItem = new Item;
-        $newItem->item = $request->item;
+        $items->user_id = Auth::user()->id;
 
-        $newItem->save();
+        $items->item = $request->item;
 
-        return redirect()->action('HomeController@show', [$newItem]);
+        $items->save();
+
+        return redirect()->action('HomeController@index');
     }
 
 
+
+    // public function addItem(Request $request)
+    // {
+    //     return $request->all(); 
+    // }
 
 }
 
