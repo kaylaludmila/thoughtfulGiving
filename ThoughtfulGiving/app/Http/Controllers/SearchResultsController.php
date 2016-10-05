@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
-
+ 
 use App\User;
 use App\Items; 
   
@@ -32,6 +32,18 @@ class SearchResultsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+
+    public function search($query, $search)
+    {
+       
+        return $query
+
+            ->where('users')->select('category')->get(); 
+
+        //$users = DB::table('users')->select('category')->get();
+
+    }
     public function create()
     {
         //
