@@ -20,6 +20,7 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->integer('phoneNumber'); 
             $table->string('mission'); 
+            $table->string('category'); 
             $table->string('logoURL'); 
             $table->string('bannerURL'); 
             $table->string('siteLink'); 
