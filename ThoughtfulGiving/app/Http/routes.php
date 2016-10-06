@@ -41,12 +41,12 @@ Route::get('/music', function () {
 
 // Route::get('/{user_id}', 'searchResultsController@show'); 
 
-// Route::resource('/searchResults', 'searchResultsController@index'); 
+Route::resource('/searchResults', 'searchResultsController@search'); 
 
 // Route::resource('/searchResults', 'searchResultsController@show'); 
 
 Route::post('/charityPortal', 'HomeController@addItem'); 
 
-Route::resource('/searchResults', 'searchResultsController@search'); 
+// Route::resource('/searchResults', 'searchResultsController@search'); 
 
 

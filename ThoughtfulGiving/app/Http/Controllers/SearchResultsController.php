@@ -21,9 +21,9 @@ class SearchResultsController extends Controller
     {
 
 
-        $items = Items::with('user')->get();
+        $user = User::find('food');
 
-        return view('searchResults', compact('items'));
+        return view('searchResults');
 
     }
 
@@ -34,16 +34,25 @@ class SearchResultsController extends Controller
      */
 
 
-    public function search($query, $search)
+    public function search($category=null)
+    
     {
-       
-        return $query
+       if($category == 'food'){
 
-            ->where('users')->select('category')->get(); 
+            $check = DB::table('users')->where('category', '=', $category)->first(); 
+            if(!$check) {
+                return Redirect::back(); 
+            }
+
+       }
+        // return $query
+
+        //     ->where('users')->select('food')->get(); 
 
         //$users = DB::table('users')->select('category')->get();
 
     }
+
     public function create()
     {
         //
@@ -68,7 +77,7 @@ class SearchResultsController extends Controller
      */
     public function show()
     {
-        // return view({'user_id'}); 
+        // return view('user_id'); 
     }
 
     /**

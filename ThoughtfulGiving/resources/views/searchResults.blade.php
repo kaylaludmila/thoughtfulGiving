@@ -14,7 +14,7 @@
 		    </tr>
 		</thead>
 		<tbody>
-		    <tr>
+<!-- 		    <tr>
 		        <td>Music Matters <a class="btn waves-effect tgPinkBG white-text darken-text-2 right-align right" href="/music">Learn More</a></td> 
 		    </tr>
 		    <tr>
@@ -22,7 +22,7 @@
 		    </tr>
 		    <tr>
 		        <td>Children Charity</td>
-		    </tr>
+		    </tr> -->
 		</tbody>
 	</table>
 </div>

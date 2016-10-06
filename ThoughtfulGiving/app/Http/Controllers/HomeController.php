@@ -51,10 +51,6 @@ class HomeController extends Controller
 
 
 
-    // public function addItem(Request $request)
-    // {
-    //     return $request->all(); 
-    // }
 
 }
 
