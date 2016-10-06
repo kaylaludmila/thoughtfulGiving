@@ -61,6 +61,7 @@
       <li><a href="/searchResults">Food</a></li>
       <li><a href="/searchResults">Clothing</a></li>
       <li><a href="/searchResults">Pet Supplies</a></li>
+      <li><a href="/searchResults">Other</a></li>
     </ul>
   <br><br><br>
     <div class="valign-wrapper">
