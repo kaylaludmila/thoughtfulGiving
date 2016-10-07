@@ -29,12 +29,17 @@
 
 <div class="col l1 s12"></div>
 
-<ul>
-	@foreach ($items as $item)
-		<li>{{ $item -> item }}</li>
-	@endforeach
-</ul>
-
+      <tbody>
+              @foreach ($company as $company)
+             <tr>
+                <td>
+                  
+                    {{ $company -> company }}
+                 
+                </td>
+                
+              </tr>
+                 @endforeach
 
 
 @endsection
