@@ -78,14 +78,30 @@
   <h3 class="givingTxt center-align" style="margin-top:15%;">Giving Made Easy</h3>
   <br>
 
-  <a class="dropdown-button valign-wrapper center-align" style="color:white; margin: auto; text-align:center !important; font-size:20px; margin-left:25px;" href="#!" data-activates="dropdown2">What would you like to donate?<i class="material-icons right">arrow_drop_down</i></a>
+
+  <div class="input-field col s12">
+  <form id="search" action='/searchResults' method="GET">
+    <select id="searchForm" name="category">
+      <option value="" disabled selected>Choose your option</option>
+      <option value="food">Food</option>
+      <option value="clothing">Clothing</option>
+      <option value="Pet Supplies">Pet Supplies</option>
+    </select>
+    <label></label>
+    </form>
+  </div>
+
+
+<!--   <a class="dropdown-button valign-wrapper center-align" style="color:white; text-align:center !important; font-size:20px; margin-left:25px;" href="#!" data-activates="dropdown2">What would you like to donate?<i class="material-icons right">arrow_drop_down</i></a>
 
     <ul id="dropdown2" class="dropdown-content center-align" style="min-width: 190px;">
-      <li><a href="/searchResults">Food</a></li>
-      <li><a href="/searchResults">Clothing</a></li>
-      <li><a href="/searchResults">Pet Supplies</a></li>
-      <li><a href="/searchResults">Other</a></li>
+      <form action='/searchResults' method='get'>
+      <li><a href="/searchResults" value="food">Food</a></li>
+      <li><a href="/searchResults" value="clothing">Clothing</a></li>
+      <li><a href="/searchResults" value="petSupplies">Pet Supplies</a></li>
+      <li><a href="/searchResults" value="other">Other</a></li>
     </ul>
+      </form>  -->
   <br><br><br>
     <div class="valign-wrapper s12 m3 l12">
           <img height="500" src="css/imgs/heart-pink.jpg" alt="heart" class="valign-wrapper responsive-img right" style="margin: auto; width: 80%;">
@@ -252,7 +268,7 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 <!--   <script type="text/javascript" src="js/materialize.js"></script>  -->
-  <script src="js/app.js"></script>
+  <script type="text/javascript" src="/js/app.js"></script>
           
 </body>
 </html>

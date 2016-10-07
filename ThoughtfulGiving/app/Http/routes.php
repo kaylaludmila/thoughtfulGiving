@@ -45,12 +45,14 @@ Route::get('/orphan', function () {
 
 // Route::get('/{user_id}', 'searchResultsController@show'); 
 
-Route::resource('/searchResults', 'searchResultsController@index'); 
+Route::get('/searchResults', 'SearchResultsController@show'); 
+
 
 // Route::resource('/searchResults', 'searchResultsController@show'); 
 
 Route::post('/charityPortal', 'HomeController@addItem'); 
 
-// Route::resource('/searchResults', 'searchResultsController@search'); 
+
+// Route::resource('/searchResults', 'SearchResultsController@index'); 
 
 

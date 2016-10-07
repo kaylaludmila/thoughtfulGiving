@@ -21,7 +21,6 @@ class SearchResultsController extends Controller
     {
 
 
-
     }
 
     /**
@@ -31,16 +30,29 @@ class SearchResultsController extends Controller
      */
 
 
-    // public function search($query, $search)
-    // {
-       
-    //     return $query
 
-    //         ->where('users')->select('category')->get(); 
+    public function search()
+    
+    {
+
+
+
+       // if($category == 'food'){
+
+       //      $check = DB::table('users')->where($category)->first(); 
+            
+       //      if(!$check) {
+       //          return redirect()->action(); 
+       //      }
+
+       // }
+        // return $query
+
+        //     ->where('users')->select('food')->get(); 
 
     //     //$users = DB::table('users')->select('category')->get();
 
-    // }
+
     public function create()
     {
         //
@@ -63,9 +75,13 @@ class SearchResultsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show()
+    public function show(Request $request)
     {
-        // return view({'user_id'}); 
+        $company = User::where('category', '=', $request->all()['category'])
+            ->select('company')
+            ->get();
+
+        return view('searchResults', compact('company')); 
     }
 
     /**
