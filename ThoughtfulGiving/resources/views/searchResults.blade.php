@@ -10,42 +10,21 @@
 	<table class="striped">
 	  <thead>
 		    <tr>
-		      <th data-field="id" style="font-size:30px; color:#479ac4;">These charities are accepting "X"</th>
+		      <th data-field="id" style="font-size:30px; color:#479ac4;">These charities are accepting donations</th>
 		    </tr>
 		</thead>
 		<tbody>
+			@foreach ($company as $company)
 		    <tr>
-		        <td><a class="black-text" href="/music">Music Matters</a><a class="btn waves-effect tgBlue white-text darken-text-2 right-align right" href="/music">Donate Now</a></td> 
-<!-- 		    <tr>
-		        <td>Music Matters <a class="btn waves-effect tgPinkBG white-text darken-text-2 right-align right" href="/music">Learn More</a></td> 
+		        <td><a class="black-text" href="/music"> {{ $company -> company }} </a><a class="btn waves-effect tgBlue white-text darken-text-2 right-align right" href="/music">Donate Now</a></td> 
 		    </tr>
-		    <tr>
-		        <td><a class="black-text" href="/dog">Finding Fido</a><a class="btn waves-effect tgBlue white-text darken-text-2 right-align right" href="/dog">Donate Now</a></td>
-		    </tr>
-		    <tr>
-		        <td><a class="black-text" href="/music">Hopeful Beginnings</a><a class="btn waves-effect tgBlue white-text darken-text-2 right-align right" href="/orphan">Donate Now</a></td>
-		    </tr>
-		        <td>Children Charity</td>
-		    </tr> -->
+		  @endforeach
 
 		</tbody>
 	</table>
 </div>
 
 <div class="col l1 s12"></div>
-
-
-      <tbody>
-              @foreach ($company as $company)
-             <tr>
-                <td>
-                  
-                    {{ $company -> company }}
-                 
-                </td>
-                
-              </tr>
-                 @endforeach
 
 
 @endsection

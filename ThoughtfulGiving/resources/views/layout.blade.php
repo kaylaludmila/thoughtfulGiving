@@ -72,42 +72,34 @@
 <div class="col l3 s12">
 
 <!-- Search panel -->
-<search>
   <div class="nav-wrapper tgBlue">
   <br><br>
   <h3 class="givingTxt center-align" style="margin-top:15%;">Giving Made Easy</h3>
   <br>
 
 
-  <div class="input-field col s12">
+  <div class="input-field col s12" style="color:white">
   <form id="search" action='/searchResults' method="GET">
     <select id="searchForm" name="category">
-      <option value="" disabled selected>Choose your option</option>
+      <option value="" disabled selected>What would you like to donate?</option>
       <option value="food">Food</option>
       <option value="clothing">Clothing</option>
-      <option value="Pet Supplies">Pet Supplies</option>
+      <option value="petSupplies">Pet Supplies</option>
+      <option value="other">Other</option>
     </select>
     <label></label>
     </form>
+    <br><br><br>
+    <div class="valign-wrapper s12 m3 l12">
+      <img height="500" src="css/imgs/heart-pink.jpg" alt="heart" class="valign-wrapper responsive-img right" style="margin: auto; width: 80%;">
+    </div>
+
+  </div>
+
   </div>
 
 
-<!--   <a class="dropdown-button valign-wrapper center-align" style="color:white; text-align:center !important; font-size:20px; margin-left:25px;" href="#!" data-activates="dropdown2">What would you like to donate?<i class="material-icons right">arrow_drop_down</i></a>
 
-    <ul id="dropdown2" class="dropdown-content center-align" style="min-width: 190px;">
-      <form action='/searchResults' method='get'>
-      <li><a href="/searchResults" value="food">Food</a></li>
-      <li><a href="/searchResults" value="clothing">Clothing</a></li>
-      <li><a href="/searchResults" value="petSupplies">Pet Supplies</a></li>
-      <li><a href="/searchResults" value="other">Other</a></li>
-    </ul>
-      </form>  -->
-  <br><br><br>
-    <div class="valign-wrapper s12 m3 l12">
-          <img height="500" src="css/imgs/heart-pink.jpg" alt="heart" class="valign-wrapper responsive-img right" style="margin: auto; width: 80%;">
-    </div>
-    </div>
-</search>
 <br>
 
 </div>
