@@ -42,7 +42,11 @@ $(document).ready(function(){
       $('.close').closeModal();
       $('.carousel').carousel();
       $(".dropdown-button").dropdown();
-      $('select').material_select(); 
+      $('select').material_select(function(){
+        document.getElementById("search").submit(); 
+
+          console.log('Test!');
+      }); 
   });
 
 $('.carousel.carousel-slider').carousel({

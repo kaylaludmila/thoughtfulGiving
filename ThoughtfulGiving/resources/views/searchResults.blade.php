@@ -16,6 +16,8 @@
 		<tbody>
 		    <tr>
 		        <td><a class="black-text" href="/music">Music Matters</a><a class="btn waves-effect tgBlue white-text darken-text-2 right-align right" href="/music">Donate Now</a></td> 
+<!-- 		    <tr>
+		        <td>Music Matters <a class="btn waves-effect tgPinkBG white-text darken-text-2 right-align right" href="/music">Learn More</a></td> 
 		    </tr>
 		    <tr>
 		        <td><a class="black-text" href="/dog">Finding Fido</a><a class="btn waves-effect tgBlue white-text darken-text-2 right-align right" href="/dog">Donate Now</a></td>
@@ -23,18 +25,27 @@
 		    <tr>
 		        <td><a class="black-text" href="/music">Hopeful Beginnings</a><a class="btn waves-effect tgBlue white-text darken-text-2 right-align right" href="/orphan">Donate Now</a></td>
 		    </tr>
+		        <td>Children Charity</td>
+		    </tr> -->
+
 		</tbody>
 	</table>
 </div>
 
 <div class="col l1 s12"></div>
 
-<!-- <ul>
-	@foreach ($items as $item)
-		<li>{{ $item -> item }}</li>
-	@endforeach
-</ul>
- -->
+
+      <tbody>
+              @foreach ($company as $company)
+             <tr>
+                <td>
+                  
+                    {{ $company -> company }}
+                 
+                </td>
+                
+              </tr>
+                 @endforeach
 
 
 @endsection
