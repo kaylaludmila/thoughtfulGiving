@@ -52,7 +52,7 @@ class SearchResultsController extends Controller
 
     //     //$users = DB::table('users')->select('category')->get();
 
-
+    }
     public function create()
     {
         //
