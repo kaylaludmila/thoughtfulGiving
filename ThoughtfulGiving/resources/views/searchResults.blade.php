@@ -10,18 +10,18 @@
 	<table class="striped">
 	  <thead>
 		    <tr>
-		      <th data-field="id" style="font-size:30px; color:#479ac4;">Search Results</th>
+		      <th data-field="id" style="font-size:30px; color:#479ac4;">These charities are accepting "X"</th>
 		    </tr>
 		</thead>
 		<tbody>
 		    <tr>
-		        <td>Music Matters <a class="btn waves-effect tgPinkBG white-text darken-text-2 right-align right" href="/music">Learn More</a></td> 
+		        <td><a class="black-text" href="/music">Music Matters</a><a class="btn waves-effect tgBlue white-text darken-text-2 right-align right" href="/music">Donate Now</a></td> 
 		    </tr>
 		    <tr>
-		        <td>Finding Fido</td>
+		        <td><a class="black-text" href="/dog">Finding Fido</a><a class="btn waves-effect tgBlue white-text darken-text-2 right-align right" href="/dog">Donate Now</a></td>
 		    </tr>
 		    <tr>
-		        <td>Children Charity</td>
+		        <td><a class="black-text" href="/music">Hopeful Beginnings</a><a class="btn waves-effect tgBlue white-text darken-text-2 right-align right" href="/orphan">Donate Now</a></td>
 		    </tr>
 		</tbody>
 	</table>
@@ -29,12 +29,12 @@
 
 <div class="col l1 s12"></div>
 
-<ul>
+<!-- <ul>
 	@foreach ($items as $item)
 		<li>{{ $item -> item }}</li>
 	@endforeach
 </ul>
-
+ -->
 
 
 @endsection

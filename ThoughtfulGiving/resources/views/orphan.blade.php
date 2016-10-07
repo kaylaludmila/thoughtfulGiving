@@ -7,15 +7,15 @@
 <!-- Charity page content  -->
 
 
-<img height="262" src="css/imgs/music-hero.jpg" alt="" class="responsive-img">
+<img height="262" src="css/imgs/orphan-header.jpg" alt="" class="responsive-img">
 
       <div class= "row valign-wrapper">
           <div class="col s12 m6 l2">
-            <img src="css/imgs/musicMatters.jpg" alt="" class="z-depth-1 responsive-img left-align">
+            <img src="css/imgs/orphan-logo.jpg" alt="" class="z-depth-1 responsive-img left-align">
           </div>
       <div class="col s12 m12 l9 valign">
-        <h1> Music for Many</h1>
-        <p class="left-align s12 m12" style="font-size:17px;">Mission: Bring music to under privileged youth around the world.</p>
+        <h1>Hopeful Beginning</h1>
+        <p class="left-align s12 m12" style="font-size:17px;">Mission: Helping foster children get clothing </p>
         </div>
       </div>
 
@@ -34,19 +34,19 @@
 
         <tbody>
           <tr>
-            <td>Keyboards</td>
+            <td>Girl's Shirts</td>
           </tr>
           <tr>
-            <td>Headphones</td>
+            <td>Boy's Pants</td>
           </tr>
           <tr>
-            <td>Drum Set</td>
+            <td>PJs</td>
           </tr>
           <tr>
-            <td>Headphones</td>
+            <td>Dipars</td>
           </tr>
           <tr>
-            <td>Flute</td>
+            <td>Toys</td>
           </tr>
         </tbody>
       </table>
@@ -64,7 +64,7 @@
               <img src="css/imgs/maps.jpg">
             </div>
             <div class="card-content">
-              <p>For More Info: <br>Karyn Sue<br>Karyn@gmail.com</p>
+              <p>For More Info: <br>Scott Thomas<br>Scott@gmail.com</p>
             </div>
             <div class="card-action">
               <a href="#" style="color:#479ac4 !important;">Official Website</a>

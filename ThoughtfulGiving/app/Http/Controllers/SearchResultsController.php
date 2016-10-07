@@ -34,16 +34,16 @@ class SearchResultsController extends Controller
      */
 
 
-    public function search($query, $search)
-    {
+    // public function search($query, $search)
+    // {
        
-        return $query
+    //     return $query
 
-            ->where('users')->select('category')->get(); 
+    //         ->where('users')->select('category')->get(); 
 
-        //$users = DB::table('users')->select('category')->get();
+    //     //$users = DB::table('users')->select('category')->get();
 
-    }
+    // }
     public function create()
     {
         //

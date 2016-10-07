@@ -15,9 +15,9 @@ body {
 }
 
 .container {
-	width: 70% !important;
-
+	width: 85% !important;
 }
+
 .orphan{
 	background-image: url("imgs/orphanCar.jpg");
 }
@@ -69,6 +69,10 @@ nav {
 	background-color:#ed4871;
 }
 
+.tgGreenBG{
+	background-color:#27c68e !important;
+}
+
 .tgPink{
 	color:#ed4871 !important;
 }
@@ -105,11 +109,13 @@ header{
 
 footer.page-footer {
 	margin-top: 0px !important;
+	padding-top: 0px !important;
 }
 
 
 footer.page-footer .footer-copyright {
-	background-color: #27c68e;
+	background-color: #ed4871;
+
 }
 
 
@@ -119,3 +125,8 @@ footer.page-footer .footer-copyright {
 
 .carousel .carousel-item {
 height:630px !important;}
+
+.socialIcon {
+	cursor: pointer;
+	width: 35px;
+}

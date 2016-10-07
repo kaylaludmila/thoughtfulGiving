@@ -18,9 +18,9 @@
       <a class="btn waves-effect tgPinkBG white-text darken-text-2" href= "/dog" style="bottom: -365px;">Learn More</a>
     </div>
     <div class="carousel-item orphan white-text" href="#three!">
-      <h1>Children Charity</h1>
-      <p class="white-text" style="letter-spacing: .75px;">Helping educate under privilaged on music</p>
-      <a class="btn waves-effect tgPinkBG white-text darken-text-2" href="#" style="bottom: -365px;">Learn More</a>
+      <h1>Hopeful Beginning</h1>
+      <p class="white-text" style="letter-spacing: .75px;">Clothing for children whose families cannont afford it</p>
+      <a class="btn waves-effect tgPinkBG white-text darken-text-2" href="/orphan" style="bottom: -365px;">Learn More</a>
     </div>
   </div>
 

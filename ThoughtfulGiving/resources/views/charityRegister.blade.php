@@ -53,7 +53,7 @@
 </div>
 
 <div class="row">
-    <div class="input-field col s12">
+    <div class="input-field col s12" style="margin-bottom:30px;">
         <div class="form-group{{ $errors->has('category') ? ' has-error' : '' }}">
         <p> What type of donations do you primarily need?</p>
           <input class="with-gap form-control" name="category" type="radio" value="clothing" id="clothing" />
@@ -73,6 +73,44 @@
                 <strong class="tgPink">{{ $errors->first('category') }}</strong>
             </span>
         @endif
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="input-field file-field col s6">
+        <div class="form-group{{ $errors->has('logoURL') ? ' has-error' : '' }}">
+        <div class="btn tgBlue">
+            <span>upload logo</span>
+            <input type="file">
+        </div>
+        <div class="file-path-wrapper">
+          <input id="logoURL" type="text" class="form-control file-path validate" name="logoURL" value="{{ old('logoURL') }}">
+          <label for="logoURL" class="control-label"></label>
+            @if ($errors->has('logoURL'))
+            <span class="help-block">
+                <strong>{{ $errors->first('logoURL') }}</strong>
+            </span>
+            @endif
+        </div>
+        </div>
+    </div>
+    <div class="input-field file-field col s6">
+        <div class="form-group{{ $errors->has('bannerURL') ? ' has-error' : '' }}">
+        <div class="btn tgBlue">
+            <span>upload banner</span>
+            <input type="file">
+        </div>
+        <div class="file-path-wrapper">
+          <input id="bannerURL" type="text" class="form-control file-path validate" name="bannerURL" value="{{ old('bannerURL') }}">
+          <label for="bannerURL" class="control-label"></label>
+            @if ($errors->has('bannerURL'))
+            <span class="help-block">
+                <strong>{{ $errors->first('bannerURL') }}</strong>
+            </span>
+            @endif
+        </div>
+        </div>
     </div>
 </div>
 
@@ -188,7 +226,22 @@
 </div>
 
 
-<div class="row">
+
+
+<!-- <div class="row">
+  <form action="#">
+    <div class="file-field input-field col s6">
+      <div class="btn tgBlue">
+        <span>upload</span>
+        <input type="file">
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text" placeholder="Upload your logo">
+      </div>
+    </div>
+  </form> -->
+
+<!-- <div class="row">
     <div class="input-field col s6">
         <div class="form-group{{ $errors->has('logoURL') ? ' has-error' : '' }}">
           <input id="logoURL" type="text" class="form-control" name="logoURL" value="{{ old('logoURL') }}">
@@ -211,7 +264,7 @@
             @endif
         </div>
     </div>
-</div>
+</div> -->
 
 
 </form>

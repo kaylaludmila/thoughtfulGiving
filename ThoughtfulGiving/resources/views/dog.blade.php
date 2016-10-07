@@ -7,11 +7,11 @@
 <!-- Charity page content  -->
 
 
-<img height="262" src="css/imgs/bentley.jpg" alt="" class="z-depth-2 responsive-img">
+<img height="262" src="css/imgs/bentley.jpg" alt="" class="responsive-img">
 
       <div class= "row valign-wrapper">
           <div class="col s12 m6 l2">
-            <img src="css/imgs/fidoRescue.jpg" alt="" class="z-depth-2 responsive-img left-align">
+            <img src="css/imgs/fidoRescue.jpg" alt="" class="z-depth-1 responsive-img left-align">
           </div>
       <div class="col s12 m12 l9 valign">
         <h1> Fido's Rescue</h1>
@@ -28,7 +28,7 @@
          <table class="striped">
         <thead>
           <tr>
-              <th data-field="id" style="font-size:30px; color:#479ac4;">Wish List</th>
+              <th data-field="id" style="font-size:30px; color:#479ac4;">In need of:</th>
           </tr>
         </thead>
 
@@ -42,6 +42,12 @@
           <tr>
             <td>Paper Towels</td>
           </tr>
+          <tr>
+            <td>Treats</td>
+          </tr>
+          <tr>
+            <td>Pee Pads</td>
+          </tr>
         </tbody>
       </table>
       <br>
@@ -52,6 +58,7 @@
         </div>
 
         <div class="col s12 m4 l3">
+        <h5 style="color:#479ac4;"> Item drop off location</h5>
           <div class="card">
             <div class="card-image">
               <img src="css/imgs/maps.jpg">
@@ -60,7 +67,7 @@
               <p>For More Info: <br>Karyn Sue<br>Karyn@gmail.com</p>
             </div>
             <div class="card-action">
-              <a href="#" style="color:#479ac4 !important;">Offical Website</a>
+              <a href="#" style="color:#479ac4 !important;">Official Website</a>
             </div>
         </div>
     </div>
