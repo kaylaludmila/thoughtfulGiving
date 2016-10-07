@@ -88,7 +88,7 @@
     </ul>
   <br><br><br>
     <div class="valign-wrapper s12 m3 l12">
-          <img height="500" src="css/imgs/heart-pink.jpg" alt="heart" class="valign-wrapper responsive-img center-align" style="margin: auto; width: 80%;">
+          <img height="500" src="css/imgs/heart-pink.jpg" alt="heart" class="valign-wrapper responsive-img right" style="margin: auto; width: 80%;">
     </div>
     </div>
 </search>
