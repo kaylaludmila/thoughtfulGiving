@@ -16,7 +16,7 @@
 		<tbody>
 			@foreach ($company as $company)
 		    <tr>
-		        <td><a class="black-text" href="/music"> {{ $company -> company }} </a><a class="btn waves-effect tgBlue white-text darken-text-2 right-align right" href="/{{USER ID}}">Donate Now</a></td> 
+		        <td><a class="black-text" href="/music"> {{ $company -> company }} </a><a class="btn waves-effect tgBlue white-text darken-text-2 right-align right" href="/music">Donate Now</a></td> 
 		    </tr>
 		  @endforeach
 
