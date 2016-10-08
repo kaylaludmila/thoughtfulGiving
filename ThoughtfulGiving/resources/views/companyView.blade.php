@@ -7,15 +7,15 @@
 <!-- Charity page content  -->
 
 
-<img height="262" src="BANNER IMAGE" alt="" class="responsive-img">
+<img height="262" src={{ $company -> bannerURL }} alt="" class="responsive-img">
 
       <div class= "row valign-wrapper">
           <div class="col s12 m6 l2">
-            <img src="LOGO IMAGE" alt="" class="z-depth-1 responsive-img left-align">
+            <img src={{ $company -> logoURL}} alt="" class="z-depth-1 responsive-img left-align">
           </div>
       <div class="col s12 m12 l9 valign">
-        <h1> CHARITY TITLE</h1>
-        <p class="left-align s12 m12" style="font-size:17px;">Mission: CHARITY MISSION.</p>
+        <h1> {{ $company -> company }}</h1>
+        <p class="left-align s12 m12" style="font-size:17px;">Mission: {{ $company-> mission }}.</p>
         </div>
       </div>
 
@@ -40,7 +40,7 @@
         </tbody>
       </table>
       <br>
-      <a class="waves-effect waves-light btn" style="background-color:#ed4871;">Donate Funds</a>
+      <a class="waves-effect waves-light btn" style="background-color:#ed4871;">Make a Monetary Donation </a>
         </div>
 
         <div class="col s12 m1 l1">
@@ -53,10 +53,10 @@
               <img src="css/imgs/maps.jpg">
             </div>
             <div class="card-content">
-              <p>For More Info: <br>CONTACT FIRST AND LAST NAME<br> CONTACT EMAIL</p>
+              <p>For More Info: <br> {{ $company -> firstName }}<br> {{ $company -> email }}</p>
             </div>
             <div class="card-action">
-              <a href="NON PROFIT URL" style="color:#479ac4 !important;">Official Website</a>
+              <a href={{ $company -> siteLink }} style="color:#479ac4 !important;">Official Website</a>
             </div>
         </div>
     </div>
