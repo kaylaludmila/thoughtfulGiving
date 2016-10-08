@@ -39,9 +39,10 @@ class SearchResultsController extends Controller
             ->select('company','id','firstName','email', 'phoneNumber','mission', 'logoURL', 'bannerURL', 'siteLink')
             ->get();
 
+            $items = Items::where('user_id', '=', $company[0])->get(); 
 
 
-        return view('companyView', compact('company')); 
+        return view('companyView', compact('company', 'items')); 
 
     }
     public function create()
