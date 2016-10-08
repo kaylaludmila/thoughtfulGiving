@@ -1,11 +1,13 @@
 @extends('layout')
 
 @section('content')
+
+
  <div class="col l9 s12 white">
 <br>
 
 <!-- Charity page content  -->
-
+@foreach ($company as $company)
 
 <img height="262" src={{ $company -> bannerURL }} alt="" class="responsive-img">
 
@@ -32,12 +34,18 @@
           </tr>
         </thead>
 
-        <tbody>
-          <tr>
-            <td>ITEMS LIST LOOP</td>
-          </tr>
-          
-        </tbody>
+            <tbody>
+              @foreach ($items as $item)
+              <tr>
+                <td>
+                  
+                    {{ $item -> item }}
+                 
+                </td>
+                
+              </tr>
+                @endforeach
+            </tbody>
       </table>
       <br>
       <a class="waves-effect waves-light btn" style="background-color:#ed4871;">Make a Monetary Donation </a>
@@ -59,8 +67,10 @@
               <a href={{ $company -> siteLink }} style="color:#479ac4 !important;">Official Website</a>
             </div>
         </div>
+     
     </div>
 
-
+</div>
+@endforeach
 </div>
 @endsection
