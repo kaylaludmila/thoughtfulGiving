@@ -118,6 +118,9 @@ footer.page-footer .footer-copyright {
 
 }
 
+a:hover .pinkH{
+	color:blue !important;
+}
 
 .modal { 
 	width: 40% !important  
