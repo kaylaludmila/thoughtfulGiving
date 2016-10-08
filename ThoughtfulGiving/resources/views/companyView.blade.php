@@ -7,17 +7,14 @@
 <br>
 
 <!-- Charity page content  -->
-@foreach ($company as $company)
 
-<img height="262" alt="" class="responsive-img" src="{{ $company -> bannerURL }}">
 
       <div class= "row valign-wrapper">
         <div class="col s12 m6 l2">
-            <img alt="" class="z-depth-1 responsive-img left-align" src="{{ $company -> logoURL}}">
-        </div>
+ </div>
         <div class="col s12 m12 l9 valign">
-          <h1> {{ $company -> company }}</h1>
-          <p class="left-align s12 m12" style="font-size:17px;">Mission: {{ $company-> mission }}.</p>
+          <h1> {{ $theCompany->company }}</h1>
+          <p class="left-align s12 m12" style="font-size:17px;">Mission: {{ $theCompany-> mission }}</p>
         </div>
       </div>
 
@@ -34,16 +31,13 @@
             </tr>
           </thead>
               <tbody>
-                @foreach ($items as $item)
+              @foreach($companyItems as $items)
                 <tr>
                   <td>
-                    
-                      {{ $item -> item }}
-                   
+                    {{$items}}
                   </td>
-                  
                 </tr>
-                  @endforeach
+                @endforeach
               </tbody>
         </table>
         <br>
@@ -60,14 +54,12 @@
               <img src="css/imgs/maps.jpg">
             </div>
             <div class="card-content">
-              <p>For More Info: <br> {{ $company -> firstName }}<br> {{ $company -> email }}</p>
+              <p>For More Info: <br> {{ $theCompany -> firstName }}<br> {{ $theCompany -> email }}</p>
             </div>
-            <div class="card-action">
-              <a style="color:#479ac4 !important;" href="{{ $company -> siteLink }}">Official Website</a>
-            </div>
+           
         </div>
     </div>
 
   </div>
-@endforeach
+
 @endsection
