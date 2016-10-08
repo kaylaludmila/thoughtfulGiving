@@ -37,7 +37,7 @@ class SearchResultsController extends Controller
             $companyItems = array();
             $userList = User::where('users.company', '=', $company)
             ->rightJoin('items','users.id', '=', 'items.user_id')
-            ->select('items.item', 'company', 'firstName', 'lastName', 'email', 'mission')
+            ->select('items.item', 'company', 'firstName', 'lastName', 'email', 'mission', 'siteLink', 'bannerURL', 'logoURL')
             ->get();
 
             foreach($userList as $user)

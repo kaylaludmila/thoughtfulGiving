@@ -8,13 +8,14 @@
 
 <!-- Charity page content  -->
 
+<!-- <img height="262" alt="" class="responsive-img" src="{{ $theCompany -> bannerURL }}"> -->
 
       <div class= "row valign-wrapper">
         <div class="col s12 m6 l2">
  </div>
         <div class="col s12 m12 l9 valign">
           <h1> {{ $theCompany->company }}</h1>
-          <p class="left-align s12 m12" style="font-size:17px;">Mission: {{ $theCompany-> mission }}</p>
+          <p class="left-align s12 m12" style="font-size:17px;">Mission: {{ $theCompany-> mission }}.</p>
         </div>
       </div>
 
@@ -34,7 +35,7 @@
               @foreach($companyItems as $items)
                 <tr>
                   <td>
-                    {{$items}}
+                    {{$items}} 
                   </td>
                 </tr>
                 @endforeach
@@ -56,7 +57,9 @@
             <div class="card-content">
               <p>For More Info: <br> {{ $theCompany -> firstName }}<br> {{ $theCompany -> email }}</p>
             </div>
-           
+            <div class="card-action">
+              <a style="color:#479ac4 !important;" href="{{ $theCompany -> siteLink }}">Official Website</a>
+            </div>
         </div>
     </div>
 
