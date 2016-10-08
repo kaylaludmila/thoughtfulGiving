@@ -1,0 +1,132 @@
+/*font-family: 'Sacramento', cursive;
+font-family: 'Zeyada', cursive;*/
+/*
+green header 27c68e
+blue bar 479ac4*/
+/*pink ed4871*/
+
+body {
+	font-family: 'Slabo 27px', serif;
+	background-color:#479ac4;
+}
+
+#maincontainer{
+	margin-top: 50px;
+}
+
+.container {
+	width: 85% !important;
+}
+
+.orphan{
+	background-image: url("imgs/orphanCar.jpg");
+}
+
+.music{
+	background-image: url("imgs/musicCar.jpg");
+}
+
+.dog{
+	background-image: url("imgs/dogCar.jpg");
+}
+
+.img-container{ 
+	background-color: #000000; 
+}
+.img-container img{ 
+	opacity: 0.5; }
+
+
+ul.b {
+    list-style-type: square;
+}
+
+nav .nav-wrapper form, nav .nav-wrapper form .input-field{
+	height: 64px !important;
+}
+
+nav .brand-logo {
+  color: white;
+	font-family: 'Pacifico', cursive;
+  padding-left: 40px;
+}
+
+nav {
+	background-color: #27c68e;
+}
+
+.givingTxt {
+	font-family: 'Pacifico', cursive;
+	color:white;
+	font-size:30px;
+}
+
+.tgBlue{
+	background-color:#479ac4;
+}
+
+.tgPinkBG{
+	background-color:#ed4871;
+}
+
+.tgGreenBG{
+	background-color:#27c68e !important;
+}
+
+.tgPink{
+	color:#ed4871 !important;
+}
+
+.tgGreen{
+	color:#27c68e !important;
+}
+
+.blue{
+	color:586994 !important;
+}
+
+header{
+	padding-top: 40px;
+/*	padding-left: 35px;*/
+}
+
+/*.hero {
+	margin-top: 30px !important;
+}*/
+
+.caret {
+	color:white !important;
+}
+
+.select-dropdown{
+	border-bottom: 1px solid white !important;
+	text-align: center;
+}
+
+.header {
+	padding-top: 40px;
+}
+
+footer.page-footer {
+	margin-top: 0px !important;
+	padding-top: 0px !important;
+}
+
+
+footer.page-footer .footer-copyright {
+	background-color: #ed4871;
+
+}
+
+
+.modal { 
+	width: 40% !important  
+} 
+
+.carousel .carousel-item {
+height:630px !important;}
+
+.socialIcon {
+	cursor: pointer;
+	width: 35px;
+}
