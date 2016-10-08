@@ -25,7 +25,7 @@
 <!-- navigation bar -->
 <nav>
   <div class="nav-wrapper">
-    <a href="/" class="brand-logo">Thoughtful Giving</a>
+    <u1><a href="/" class="brand-logo">Thoughtful Giving</a></u1>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
     <!-- Authentication Links -->
       @if (Auth::guest())
@@ -65,6 +65,8 @@
       </div>
     </search>
  -->
+
+<!-- home div-->
 
 <!-- Main Content -->
 <div class="row" style="margin-bottom:0px !important;">
