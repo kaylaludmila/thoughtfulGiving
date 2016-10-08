@@ -36,7 +36,7 @@ $(".torequests").click(function() {
 
 
 $(document).ready(function(){
-    $('.modal-trigger').leanModal();
+      $('.modal-trigger').leanModal();
       dismissible: true;
       closeIcon: true
       $('.close').closeModal();
@@ -45,7 +45,7 @@ $(document).ready(function(){
       $('select').material_select(function(){
         document.getElementById("search").submit(); 
 
-          console.log('Test!');
+
       }); 
   });
 

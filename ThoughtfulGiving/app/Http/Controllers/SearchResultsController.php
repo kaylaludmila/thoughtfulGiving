@@ -31,26 +31,17 @@ class SearchResultsController extends Controller
 
 
 
-    public function search()
+    public function search($company)
     
     {
 
+            $company = User::where('company', '=', $company)
+            ->select('company','id','firstName','email', 'phoneNumber','mission', 'logoURL', 'bannerURL', 'siteLink')
+            ->get();
 
 
-       // if($category == 'food'){
 
-       //      $check = DB::table('users')->where($category)->first(); 
-            
-       //      if(!$check) {
-       //          return redirect()->action(); 
-       //      }
-
-       // }
-        // return $query
-
-        //     ->where('users')->select('food')->get(); 
-
-    //     //$users = DB::table('users')->select('category')->get();
+        return view('companyView', compact('company')); 
 
     }
     public function create()
@@ -78,7 +69,7 @@ class SearchResultsController extends Controller
     public function show(Request $request)
     {
         $company = User::where('category', '=', $request->all()['category'])
-            ->select('company')
+            ->select('company','id')
             ->get();
 
         return view('searchResults', compact('company')); 
