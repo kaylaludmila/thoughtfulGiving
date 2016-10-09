@@ -57,22 +57,22 @@
         <div class="form-group{{ $errors->has('category') ? ' has-error' : '' }}">
         <p> What type of donations do you primarily need?</p>
           <input class="with-gap form-control" name="category" type="radio" value="clothing" id="clothing" />
-          <label style="margin-left:10px;" for="clothing">Clothing</label>
+          <label style="margin-left:10px;" class="control-label" for="clothing">Clothing</label>
 
           <input class="with-gap form-control" name="category" value="food" type="radio" id="food" />
-          <label style="margin-left:10px;" for="food">Food</label>
+          <label style="margin-left:10px;" class="control-label" for="food">Food</label>
 
           <input class="with-gap form-control" name="category" value="petSupplies" type="radio" id="petSupplies"  />
-          <label style="margin-left:10px;" for="petSupplies">Pet Supplies</label>
+          <label style="margin-left:10px;" class="control-label" for="petSupplies">Pet Supplies</label>
 
           <input class="with-gap form-control" name="category" value="other" type="radio" id="other"  />
-          <label style="margin-left:10px;" for="other">Other</label>
+          <label style="margin-left:10px;" class="control-label" for="other">Other</label>
 
-        @if ($errors->has('category'))
+          @if ($errors->has('category'))
             <span class="help-block">
                 <strong class="tgPink">{{ $errors->first('category') }}</strong>
             </span>
-        @endif
+          @endif
         </div>
     </div>
 </div>

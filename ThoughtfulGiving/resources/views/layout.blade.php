@@ -26,7 +26,7 @@
 <nav>
   <div class="nav-wrapper">
     <u1><a href="/" class="brand-logo">Thoughtful Giving</a></u1>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
+    <ul id="nav-mobile" class="right">
     <!-- Authentication Links -->
       @if (Auth::guest())
         <ul id="dropdown1" class="dropdown-content tgPink">
