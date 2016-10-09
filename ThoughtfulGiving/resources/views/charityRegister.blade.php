@@ -70,6 +70,8 @@
 
           @if ($errors->has('category'))
             <br>
+            <br>
+            <br>
             <span class="help-block">
                 <strong class="tgPink">{{ $errors->first('category') }}</strong>
             </span>
@@ -115,34 +117,6 @@
     </div>
 </div>
 
-<!-- <div class="row">
-  <form action="#">
-    <div class="file-field input-field col s6">
-      <div class="btn tgBlue">
-        <span>upload</span>
-        <input type="file">
-      </div>
-      <div class="file-path-wrapper">
-        <input class="file-path validate" type="text" placeholder="Upload your logo">
-      </div>
-    </div>
-  </form>
-
-  <form action="#">
-    <div class="file-field input-field col s6">
-      <div class="btn tgBlue">
-        <span>upload</span>
-        <input type="file">
-      </div>
-      <div class="file-path-wrapper">
-        <input class="file-path validate" type="text" placeholder="Upload your banner image">
-      </div>
-    </div>
-  </form>
-
-</div> -->
-
-<br>
 <div class="row">
     <div class="input-field col s6">
         <div class="form-group{{ $errors->has('firstName') ? ' has-error' : '' }}">
@@ -225,48 +199,6 @@
         </button>
     </div>
 </div>
-
-
-
-
-<!-- <div class="row">
-  <form action="#">
-    <div class="file-field input-field col s6">
-      <div class="btn tgBlue">
-        <span>upload</span>
-        <input type="file">
-      </div>
-      <div class="file-path-wrapper">
-        <input class="file-path validate" type="text" placeholder="Upload your logo">
-      </div>
-    </div>
-  </form> -->
-
-<!-- <div class="row">
-    <div class="input-field col s6">
-        <div class="form-group{{ $errors->has('logoURL') ? ' has-error' : '' }}">
-          <input id="logoURL" type="text" class="form-control" name="logoURL" value="{{ old('logoURL') }}">
-          <label for="logoURL" class="control-label">Logo Image</label>
-            @if ($errors->has('logoURL'))
-            <span class="help-block">
-                <strong>{{ $errors->first('logoURL') }}</strong>
-            </span>
-            @endif
-        </div>
-    </div>
-        <div class="input-field col s6">
-        <div class="form-group{{ $errors->has('bannerURL') ? ' has-error' : '' }}">
-          <input id="bannerURL" type="text" class="form-control" name="bannerURL" value="{{ old('bannerURL') }}">
-          <label for="bannerURL" class="control-label">Banner Image</label>
-            @if ($errors->has('bannerURL'))
-            <span class="help-block">
-                <strong>{{ $errors->first('bannerURL') }}</strong>
-            </span>
-            @endif
-        </div>
-    </div>
-</div> -->
-
 
 </form>
 
