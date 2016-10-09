@@ -61,14 +61,14 @@
 @section('content')
  <div class="col l9 s12">
 
-  <div class="carousel carousel-slider center l12" data-indicators="true">
+  <div class="carousel carousel-slider center s12 l12" data-indicators="true">
     <div class="carousel-fixed-item center">
       <!-- <a class="btn waves-effect white grey-text darken-text-2">button</a> -->
     </div>
     <div class="carousel-item music white-text">
       <h5 style="padding-top: 10px;">Featured Charity</h5>
       <h1>Music for Many</h1>
-      <p class="white-text" style="letter-spacing: .75px;">Our mission at Music for Many, Inc. has been providing artist in residency programs to students in temporary housing.<br> We believe all students deserve and need music in their life.</p>
+      <p class="white-text" style="letter-spacing: .75px;">We believe all students deserve and need music in their life.</p>
       <a class="btn waves-effect tgPinkBG white-text darken-text-2" href="/music" style="bottom: -300px;">Learn More</a>
     </div>
     <div class="carousel-item dog white-text" href="#two!">
@@ -80,7 +80,7 @@
     <div class="carousel-item orphan white-text" href="#three!">
       <h5 style="padding-top: 10px;">Featured Charity</h5>
       <h1>Hopeful Beginning</h1>
-      <p class="white-text" style="letter-spacing: .75px;">Our mission is through to transforms lives of homeless men, women and children <br> by ministering to their physical, emotional and spiritual needs.</p>
+      <p class="white-text" style="letter-spacing: .75px;">Our mission is to transforms lives of homeless men, women and children.</p>
       <a class="btn waves-effect tgPinkBG white-text darken-text-2" href="/orphan" style="bottom: -300px;">Learn More</a>
     </div>
   </div>
