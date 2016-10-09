@@ -14,8 +14,8 @@
             <img src="css/imgs/logos/orphan-logo.jpg" alt="" class="z-depth-1 responsive-img left-align">
           </div>
       <div class="col s12 m12 l9 valign">
-        <h1>Hopeful Beginning</h1>
-        <p class="left-align s12 m12" style="font-size:17px;">Mission: Helping foster children get clothing </p>
+        <h1>Finding Hope</h1>
+        <p class="left-align s12 m12" style="font-size:17px;">Mission: Through the love of Jesus Christ, Raleigh Rescue Mission transforms lives of homeless men, women and children by ministering to their physical, emotional and spiritual needs. </p>
         </div>
       </div>
 
@@ -67,7 +67,7 @@
               <p>For More Info: <br>Scott Thomas<br>Scott@gmail.com</p>
             </div>
             <div class="card-action">
-              <a href="#" style="color:#479ac4 !important;">Official Website</a>
+              <a href="www.google.com" target="_blank" style="color:#479ac4 !important;">Official Website</a>
             </div>
         </div>
     </div>

@@ -15,7 +15,7 @@
           </div>
       <div class="col s12 m12 l9 valign">
         <h1> Music for Many</h1>
-        <p class="left-align s12 m12" style="font-size:17px;">Mission: Bring music to under privileged youth around the world.</p>
+        <p class="left-align s12 m12" style="font-size:17px;">Mission: Our mission at Music for Many, Inc. has been providing artist in residency programs to students in temporary housing. We believe all students deserve and need music in their life.</p>
         </div>
       </div>
 
@@ -67,7 +67,7 @@
               <p>For More Info: <br>Karyn Sue<br>Karyn@gmail.com</p>
             </div>
             <div class="card-action">
-              <a href="#" style="color:#479ac4 !important;">Official Website</a>
+              <a href="www.google.com" target="_blank" style="color:#479ac4 !important;">Official Website</a>
             </div>
         </div>
     </div>
