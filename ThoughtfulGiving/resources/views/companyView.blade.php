@@ -43,7 +43,7 @@
               </tbody>
         </table>
         <br>
-        <a class="waves-effect waves-light btn" style="background-color:#ed4871;">Make a Monetary Donation </a>
+        <a class="waves-effect waves-light btn" style="background-color:#ed4871;">Donate Funds</a>
       </div>
 
       <div class="col s12 m1 l1">
