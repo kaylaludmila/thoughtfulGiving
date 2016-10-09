@@ -21,7 +21,7 @@ body {
 	background-size: cover;
 }
 
-a:hover{
+.tableSearch:hover{
 	color:#ed4871 !important;
 }
 
