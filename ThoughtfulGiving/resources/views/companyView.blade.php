@@ -8,7 +8,7 @@
 
 <!-- Charity page content  -->
 
-<!-- <img height="262" alt="" class="responsive-img" src="{{ $theCompany -> bannerURL }}"> -->
+<img height="262" alt="" class="responsive-img" src="{{ $theCompany -> bannerURL }}">
 
       <div class= "row valign-wrapper">
         <div class="col s12 m6 l2">
