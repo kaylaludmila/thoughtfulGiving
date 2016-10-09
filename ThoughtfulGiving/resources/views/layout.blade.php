@@ -113,8 +113,8 @@
      <img src="css/imgs/instagramIcon.png" class="socialIcon right right-align" href="#">
      <img src="css/imgs/twitter-icon.png" class="socialIcon right-align right" href="#">
       <a class="grey-text text-lighten-4 right center-align modal-trigger" href="#about" style="margin-right:20px;">About TG</a>
-      <a class="modal-trigger tgGreen" href=#loginModal>Login</a>
-      <a class="grey-text text-lighten-4 right center-align modal-trigger" href="/charityRegister" style="margin-right:20px;">Register</a>
+      <a class="modal-trigger grey-text text-lighten-4 right center-align" href=#loginModal>Login</a>
+      <a class="grey-text text-lighten-4 right center-align" href="/charityRegister" style="margin-right:20px;">Register</a>
     </div>
   </div>
 </footer>
