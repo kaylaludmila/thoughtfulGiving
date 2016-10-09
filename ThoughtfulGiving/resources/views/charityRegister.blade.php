@@ -69,6 +69,7 @@
           <label style="margin-left:10px;" class="control-label" for="other">Other</label>
 
           @if ($errors->has('category'))
+            <br>
             <span class="help-block">
                 <strong class="tgPink">{{ $errors->first('category') }}</strong>
             </span>
@@ -141,7 +142,7 @@
 
 </div> -->
 
-
+<br>
 <div class="row">
     <div class="input-field col s6">
         <div class="form-group{{ $errors->has('firstName') ? ' has-error' : '' }}">
