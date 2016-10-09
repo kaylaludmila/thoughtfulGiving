@@ -14,7 +14,9 @@
         <div class="col s12 m6 l2">
  </div>
         <div class="col s12 m12 l9 valign">
+        
           <h1> {{ $theCompany->company }}</h1>
+
           <p class="left-align s12 m12" style="font-size:17px;">Mission: {{ $theCompany-> mission }}.</p>
         </div>
       </div>
