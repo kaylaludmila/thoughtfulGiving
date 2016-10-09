@@ -61,7 +61,7 @@
     </div> -->
 
     <div class="section white">
-      <div class="row container">
+      <div class="row bottomBorder">
           <div class="col s12 m4">
           <div class="icon-block center">
             <img src="css/imgs/cat-food.jpg" alt="" style="height:100px;" class="circle responsive-img">
@@ -88,6 +88,7 @@
           </div>
         </div>
       </div>
+
     </div>
 
 
