@@ -48,7 +48,23 @@ class HomeController extends Controller
 
         return redirect()->action('HomeController@index');
     }
+    public function edit($theCompany)
+    {
+            $companyItems = array();
+            $userList = User::where('users.company', '=', $theCompany)
+            ->rightJoin('items','users.id', '=', 'items.user_id')
+            ->select('items.item', 'company', 'firstName', 'lastName', 'email', 'mission', 'siteLink', 'bannerURL', 'logoURL')
+            ->get();
 
+            foreach($userList as $user)
+            {
+                $companyItems[] = $user->item;
+            }
+          
+            $theCompany = (object)$userList[0];
+
+        return view('companyView', compact('theCompany', 'companyItems')); 
+    }
 
 
 

@@ -57,4 +57,6 @@ Route::post('/charityPortal', 'HomeController@addItem');
 
 Route::get('/companyView/{company}', 'SearchResultsController@search'); 
 
+Route::get('/companyView/{company}', 'HomeController@edit'); 
+
 
