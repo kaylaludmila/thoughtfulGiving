@@ -4,95 +4,47 @@
 
 
 
-<div class="col l12 s12 headerBG">
-  <div class="container">
-    <h1 class="header white-text givingTxtTitle center">Thoughtful Giving</h1>
+<div class="col l12 s12 headerBG valign-wrapper valign">
+    <h1 class="header white-text givingTxtTitle center center-align">Thoughtful Giving</h1>
       <div class="row center">
-          <h4 class="header white-text col s12 light">Connecting people with the needs of non-profit organizations</h4>
+          <h5 class="white-text col s12 light center-align">Connecting people with the needs of non-profit organizations</h5>
       </div>
       <br>
        <div class="row center">
-            <a id="download-button" class="btn-large tgPinkBG waves-effect waves-light lighten-1 searchClick">Start Searching</a>
+            <a id="download-button" class="btn-large tgPinkBG waves-effect waves-light lighten-1 searchClick center-align">Start Searching</a>
         </div>
+</div> 
+
+<div class="section white bottomBorder">
+  <div class="row">
+      <div class="col s12 m4 space">
+      <div class="icon-block center">
+        <img src="css/imgs/cat-food.jpg" alt="" style="height:100px;" class="circle responsive-img">
+        <h5 class="center">First</h5>
+        <p class="center">Find an item you want to donate.</p>
+      </div>
+    </div>
+
+    <div class="col s12 m4 space">
+      <div class="icon-block center">
+        <img src="css/imgs/kitty.jpg" alt="" style="height:100px;"  class="circle responsive-img"> 
+        <h5 class="center">Then</h5>
+
+        <p class="center">Search for a charity that needs that item.</p>
+      </div>
+    </div>
+
+    <div class="col s12 m4 space ">
+      <div class="icon-block center">
+        <img src="css/imgs/heart-pink.jpg" style="height:100px;"  alt="" class="circle responsive-img">
+        <h5 class="center">Finally</h5>
+
+        <p class="center">Donate your things, and feel great doing it!</p>
+      </div>
+    </div>
   </div>
-</div>  
 
-<!--     <div class="col s12 m8 l10">
-        <div class="row valign-wrapper">
-            <img src="css/imgs/cat-food.jpg" alt="" class="circle responsive-img">
-            <img src="css/imgs/kitty.jpg" alt="" class="circle responsive-img"> 
-            <img src="css/imgs/heart-pink.jpg" alt="" class="circle responsive-img">
-          <div class="col s10">
-            <span class="black-text">
-              Find an item you want to donate.
-            </span>
-          </div>
-        </div>
-    </div> -->
-
-<!--     <div class="col s12 m8 offset-m2 l6 offset-l3">
-      <div class="grey lighten-5">
-        <div class="row valign-wrapper">
-          <div class="col s2">
-            <img src="css/imgs/kitty.jpg" alt="" class="circle responsive-img"> 
-          </div>
-          <div class="col s10">
-            <span class="black-text">
-              Search for a charity that needs that item.
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col s12 m8 offset-m2 l6 offset-l3">
-      <div class="grey lighten-5">
-        <div class="row valign-wrapper">
-          <div class="col s2">
-            <img src="css/imgs/heart-pink.jpg" alt="" class="circle responsive-img">
-          </div>
-          <div class="col s10">
-            <span class="black-text">
-              Donate your things, and feel great doing it! 
-            </span>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <div class="section white bottomBorder">
-      <div class="row">
-      <br>
-      <br>
-      <br>
-          <div class="col s12 m4">
-          <div class="icon-block center">
-            <img src="css/imgs/cat-food.jpg" alt="" style="height:100px;" class="circle responsive-img">
-            <h5 class="center">First</h5>
-            <p class="center">Find an item you want to donate.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block center">
-            <img src="css/imgs/kitty.jpg" alt="" style="height:100px;"  class="circle responsive-img"> 
-            <h5 class="center">Then</h5>
-
-            <p class="center">Search for a charity that needs that item.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block center">
-            <img src="css/imgs/heart-pink.jpg" style="height:100px;"  alt="" class="circle responsive-img">
-            <h5 class="center">Finally</h5>
-
-            <p class="center">Donate your things, and feel great doing it!</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
+</div>
 
 
 </div>

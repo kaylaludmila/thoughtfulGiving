@@ -15,7 +15,11 @@ body {
 }
 
 .bottomBorder{
-	border-bottom: solid #ee6e73 15px;
+	border-bottom: solid #ee6e73 24px;
+}
+
+.space{
+	margin-top: 40px;
 }
 
 
@@ -23,6 +27,7 @@ body {
 	background-image: url("imgs/charity-bg.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 450px;
 }
 
 .tableSearch:hover{
