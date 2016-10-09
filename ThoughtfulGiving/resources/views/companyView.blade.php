@@ -59,7 +59,7 @@
               <p>For More Info: <br> {{ $theCompany -> firstName }}<br> {{ $theCompany -> email }}</p>
             </div>
             <div class="card-action">
-              <a style="color:#479ac4 !important;" href="https://www.google.com" target="_blank">Official Website</a>
+             {{ HTML::link ("$theCompany -> siteLink", "Official Website") }}
             </div>
         </div>
     </div>
