@@ -54,6 +54,7 @@ class AuthController extends Controller
             'mission' => 'required|max:500', 
             'email' => 'required|email|max:255|unique:users',
             'password' => 'required|min:6|confirmed',
+            'category' => 'required',
         ]);
     }
 
