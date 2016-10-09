@@ -67,7 +67,7 @@
               <p>For More Info: <br>Karyn Sue<br>Karyn@gmail.com</p>
             </div>
             <div class="card-action">
-              <a href="www.google.com" target="_blank" style="color:#479ac4 !important;">Official Website</a>
+              <a href="https://www.google.com" target="_blank" style="color:#479ac4 !important;">Official Website</a>
             </div>
         </div>
     </div>
