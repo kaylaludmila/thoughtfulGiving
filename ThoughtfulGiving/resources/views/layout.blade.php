@@ -26,7 +26,7 @@
 <nav>
   <div class="nav-wrapper">
     <u1><a href="/" class="brand-logo">Thoughtful Giving</a></u1>
-    <ul id="nav-mobile" class="right">
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
     <!-- Authentication Links -->
       @if (Auth::guest())
         <ul id="dropdown1" class="dropdown-content tgPink">
@@ -42,29 +42,6 @@
     </ul>
   </div>
 </nav>
-
-
-<!--      <search>
-      <div class="nav-wrapper tgBlue">
-        <br><br>
-        <h3 class="givingTxt center-align" style="margin-top:20%;">Giving Made Easy</h3>
-        <br>
-        <p class="center-align" style="font-size:20px; color:white;">What would you like to donate? </p>
-
-        <div class="input-field" style="color:white;">
-          <select>
-            <option value="" disabled selected>Donation Options</option>
-            <option value="1">Clothing</option>
-            <option value="2">Food</option>
-            <option value="3">Pet Supplies</option>
-          </select>
-        </div>
-          <div class="valign-wrapper">
-            <img height="500" src="css/imgs/heart-pink.jpg" alt="heart" class="valign-wrapper z-depth-2 responsive-img center-align" style="margin: auto; width: 80%;">
-          </div>
-      </div>
-    </search>
- -->
 
 <!-- home div-->
 <div class="row" style="margin-bottom:0px !important;">
@@ -134,24 +111,16 @@
     Thoughtful Giving © 2016
      <img src="css/imgs/facebook-icon.png" class="socialIcon right right-align" href="#">
      <img src="css/imgs/instagramIcon.png" class="socialIcon right right-align" href="#">
-    <img src="css/imgs/twitter-icon.png" class="socialIcon right-align right" href="#">
-    <a class="grey-text text-lighten-4 right center-align modal-trigger" href="#about" style="margin-right:20px;">About TG</a>
+     <img src="css/imgs/twitter-icon.png" class="socialIcon right-align right" href="#">
+      <a class="grey-text text-lighten-4 right center-align modal-trigger" href="#about" style="margin-right:20px;">About TG</a>
+      <a class="modal-trigger tgGreen" href=#loginModal>Login</a>
+      <a class="grey-text text-lighten-4 right center-align modal-trigger" href="/charityRegister" style="margin-right:20px;">Register</a>
     </div>
   </div>
 </footer>
-<!-- <footer class="page-footer">
-  <div class="footer-copyright">
-    <div class="container valign-wrapper">
-      <div class="row">
-      <img class="white" height="25" src="css/imgs/twitter-icon.png">
-      <p class="center-align"> Thoughtful Giving &copy; 2016</p>
-      </div>
-    </div>
-  </div>
-</footer> -->
 
 
-<!-- modal -->
+<!-- Login modal -->
 
 <div id="loginModal" class="modal">
     <div class="modal-content">

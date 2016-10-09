@@ -11,7 +11,7 @@
 
       <div class= "row valign-wrapper">
           <div class="col s12 m6 l2">
-            <img src="css/imgs/orphan-logo.jpg" alt="" class="z-depth-1 responsive-img left-align">
+            <img src="css/imgs/logos/orphan-logo.jpg" alt="" class="z-depth-1 responsive-img left-align">
           </div>
       <div class="col s12 m12 l9 valign">
         <h1>Hopeful Beginning</h1>
@@ -43,7 +43,7 @@
             <td>PJs</td>
           </tr>
           <tr>
-            <td>Dipars</td>
+            <td>Diapers</td>
           </tr>
           <tr>
             <td>Toys</td>
