@@ -34,15 +34,20 @@ class SearchResultsController extends Controller
     public function search($company)
     
     {
-
-            $company = User::where('company', '=', $company)
-            ->select('company','id','firstName','email', 'phoneNumber','mission', 'logoURL', 'bannerURL', 'siteLink')
+            $companyItems = array();
+            $userList = User::where('users.company', '=', $company)
+            ->rightJoin('items','users.id', '=', 'items.user_id')
+            ->select('items.item', 'company', 'firstName', 'lastName', 'email', 'mission')
             ->get();
 
-            $items = Items::where('user_id', '=', $company[0])->get(); 
+            foreach($userList as $user)
+            {
+                $companyItems[] = $user->item;
+            }
+          
+            $theCompany = (object)$userList[0]->attributes;
 
-
-        return view('companyView', compact('company', 'items')); 
+        return view('companyView', compact('theCompany', 'companyItems')); 
 
     }
     public function create()
