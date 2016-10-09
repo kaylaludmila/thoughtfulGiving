@@ -59,7 +59,7 @@
             </tbody>
         </table>
         <br>
-        <a class="waves-effect waves-light btn" style="background-color:#ed4871;">View Your Page</a>
+        <a class="waves-effect waves-light btn" style="background-color:#ed4871;" href="/companyView/{{ Auth::user()->company }}">View Your Page</a>
     </div>
 </div>
 
