@@ -4,19 +4,21 @@
 
 
 
-<div class="col l12 s12 headerBG valign-wrapper valign">
+<div class="col l12 s12 headerBG">
     <h1 class="header white-text givingTxtTitle center center-align">Thoughtful Giving</h1>
       <div class="row center">
           <h5 class="white-text col s12 light center-align">Connecting people with the needs of non-profit organizations</h5>
       </div>
       <br>
        <div class="row center">
-            <a id="download-button" class="btn-large tgPinkBG waves-effect waves-light lighten-1 searchClick center-align">Start Searching</a>
+            <a id="download-button" style="bottom: -300px" class="btn-large tgPinkBG waves-effect waves-light lighten-1 searchClick center-align">Start Searching</a>
         </div>
 </div> 
 
 <div class="section white bottomBorder">
   <div class="row">
+    <div class="topBorder">
+    </div>
       <div class="col s12 m4 space">
       <div class="icon-block center">
         <img src="css/imgs/cat-food.jpg" alt="" style="height:100px;" class="circle responsive-img">

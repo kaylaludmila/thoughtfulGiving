@@ -18,6 +18,11 @@ body {
 	border-bottom: solid #ee6e73 24px;
 }
 
+.topBorder{
+	border-top: solid #ee6e73 24px;
+}
+
+
 .space{
 	margin-top: 40px;
 }
