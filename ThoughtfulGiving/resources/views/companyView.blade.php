@@ -43,7 +43,7 @@
               </tbody>
         </table>
         <br>
-        <a class="waves-effect waves-light btn" style="background-color:#ed4871;">Donate Funds</a>
+        <a class="waves-effect waves-light btn" href= "https://www.paypal.com/home" target="_blank" style="background-color:#ed4871;">Donate Funds</a>
       </div>
 
       <div class="col s12 m1 l1">
