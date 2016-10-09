@@ -6,13 +6,13 @@
 
 <div class="col l12 s12 headerBG">
   <div class="container">
-    <h1 class="header white-text givingTxt center">Thoughtful Giving</h1>
+    <h1 class="header white-text givingTxtTitle center">Thoughtful Giving</h1>
       <div class="row center">
           <h4 class="header white-text col s12 light">Connecting people with the needs of non-profit organizations</h4>
       </div>
       <br>
        <div class="row center">
-            <a id="download-button" class="btn-large waves-effect waves-light lighten-1 searchClick">Start Searching</a>
+            <a id="download-button" class="btn-large tgPinkBG waves-effect waves-light lighten-1 searchClick">Start Searching</a>
         </div>
   </div>
 </div>  
@@ -60,8 +60,11 @@
       </div>
     </div> -->
 
-    <div class="section white">
-      <div class="row bottomBorder">
+    <div class="section white bottomBorder">
+      <div class="row">
+      <br>
+      <br>
+      <br>
           <div class="col s12 m4">
           <div class="icon-block center">
             <img src="css/imgs/cat-food.jpg" alt="" style="height:100px;" class="circle responsive-img">

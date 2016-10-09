@@ -15,8 +15,7 @@ body {
 }
 
 .bottomBorder{
-	margin-top: 20px;
-	border-bottom: solid #27c68e 5px;
+	border-bottom: solid #ee6e73 15px;
 }
 
 
@@ -84,6 +83,11 @@ nav {
 	font-family: 'Pacifico', cursive;
 	color:white;
 	font-size:30px;
+}
+
+.givingTxtTitle {
+	font-family: 'Pacifico', cursive;
+	color:white;
 }
 
 .tgBlue{
