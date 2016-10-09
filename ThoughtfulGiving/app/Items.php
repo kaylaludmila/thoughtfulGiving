@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class Items extends Model
 
 {
-	public $fillable = [
-	    'item'
-	];
+	// public $fillable = [
+	//     'item'
+	// ];
 
     public function user()
     {

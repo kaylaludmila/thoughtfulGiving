@@ -45,7 +45,7 @@ class SearchResultsController extends Controller
                 $companyItems[] = $user->item;
             }
           
-            $theCompany = (object)$userList[0]->attributes;
+            $theCompany = (object)$userList[0];
 
         return view('companyView', compact('theCompany', 'companyItems')); 
 
