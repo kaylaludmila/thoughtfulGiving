@@ -1,5 +1,63 @@
 @extends('layout')
 
+@section('homeAbout')
+<div class="col l12 s12 headerBG">
+  <div class="center">
+    <h1>Get to Giving!</h1>
+    <p>A platform that connects people with the needs of non-profit organizations</p>
+    <br>
+  </div>  
+
+    <div class="col s12 m8 l10">
+        <div class="row valign-wrapper">
+            <img src="css/imgs/cat-food.jpg" alt="" class="circle responsive-img">
+            <img src="css/imgs/kitty.jpg" alt="" class="circle responsive-img"> 
+            <img src="css/imgs/heart-pink.jpg" alt="" class="circle responsive-img">
+         <!--  <div class="col s10">
+            <span class="black-text">
+              Find an item you want to donate.
+            </span>
+          </div> -->
+        </div>
+    </div>
+
+<!--     <div class="col s12 m8 offset-m2 l6 offset-l3">
+      <div class="grey lighten-5">
+        <div class="row valign-wrapper">
+          <div class="col s2">
+            <img src="css/imgs/kitty.jpg" alt="" class="circle responsive-img"> 
+          </div>
+          <div class="col s10">
+            <span class="black-text">
+              Search for a charity that needs that item.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m8 offset-m2 l6 offset-l3">
+      <div class="grey lighten-5">
+        <div class="row valign-wrapper">
+          <div class="col s2">
+            <img src="css/imgs/heart-pink.jpg" alt="" class="circle responsive-img">
+          </div>
+          <div class="col s10">
+            <span class="black-text">
+              Donate your things, and feel great doing it! 
+            </span>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
+
+</div>
+
+
+@endsection
+
 @section('content')
  <div class="col l9 s12">
 
@@ -8,19 +66,22 @@
       <!-- <a class="btn waves-effect white grey-text darken-text-2">button</a> -->
     </div>
     <div class="carousel-item music white-text">
+      <h5 style="padding-top: 10px;">Featured Charity</h5>
       <h1>Music for Many</h1>
       <p class="white-text" style="letter-spacing: .75px;">Bringing music to under privileged youth around the world</p>
-      <a class="btn waves-effect tgPinkBG white-text darken-text-2" href="/music" style="bottom: -365px;">Learn More</a>
+      <a class="btn waves-effect tgPinkBG white-text darken-text-2" href="/music" style="bottom: -300px;">Learn More</a>
     </div>
     <div class="carousel-item dog white-text" href="#two!">
-      <h1>Finding Fido</h1>
+      <h5 style="padding-top: 10px;">Featured Charity</h5>
+      <h1>Fido's Rescue</h1>
       <p class="white-text" style="letter-spacing: .75px;">Rescuing one pup at a time</p>
-      <a class="btn waves-effect tgPinkBG white-text darken-text-2" href= "/dog" style="bottom: -365px;">Learn More</a>
+      <a class="btn waves-effect tgPinkBG white-text darken-text-2" href= "/dog" style="bottom: -300px;">Learn More</a>
     </div>
     <div class="carousel-item orphan white-text" href="#three!">
+      <h5 style="padding-top: 10px;">Featured Charity</h5>
       <h1>Hopeful Beginning</h1>
       <p class="white-text" style="letter-spacing: .75px;">Clothing for children whose families cannont afford it</p>
-      <a class="btn waves-effect tgPinkBG white-text darken-text-2" href="/orphan" style="bottom: -365px;">Learn More</a>
+      <a class="btn waves-effect tgPinkBG white-text darken-text-2" href="/orphan" style="bottom: -300px;">Learn More</a>
     </div>
   </div>
 

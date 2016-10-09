@@ -67,6 +67,11 @@
  -->
 
 <!-- home div-->
+<div class="row" style="margin-bottom:0px !important;">
+
+@yield('homeAbout')
+
+</div>
 
 <!-- Main Content -->
 <div class="row" style="margin-bottom:0px !important;">
