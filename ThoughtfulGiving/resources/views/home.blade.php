@@ -3,7 +3,6 @@
 @section('content')
  <div class="col l9 s12 white z-depth-2" style="padding-top:50px">
 <br>
-<!-- <img height="262" src="css/imgs/music-hero.jpg" alt="" class="z-depth-2 responsive-img"> -->
 
 <!-- Charity page content  -->
 

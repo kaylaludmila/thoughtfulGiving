@@ -25,7 +25,7 @@
 <!-- navigation bar -->
 <nav>
   <div class="nav-wrapper">
-    <u1><a href="/" class="brand-logo">Thoughtful Giving</a></u1>
+    <u1><a href="/" class="brand-logo logoBack">Thoughtful Giving</a></u1>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
     <!-- Authentication Links -->
       @if (Auth::guest())

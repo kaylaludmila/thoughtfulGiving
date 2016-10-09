@@ -7,15 +7,15 @@
 <!-- Charity page content  -->
 
 
-<img height="262" src="css/imgs/orphan-header.jpg" alt="" class="responsive-img">
+<img height="262" src="https://raw.githubusercontent.com/kaylaludmila/thoughtfulGiving/master/ThoughtfulGiving/public/companyView/css/imgs/banners/projectHope.jpg" alt="" class="responsive-img">
 
       <div class= "row valign-wrapper">
           <div class="col s12 m6 l2">
-            <img src="css/imgs/logos/orphan-logo.jpg" alt="" class="z-depth-1 responsive-img left-align">
+            <img src="css/imgs/logos/projectHope.jpg" alt="" class="z-depth-1 responsive-img left-align">
           </div>
       <div class="col s12 m12 l9 valign">
-        <h1>Finding Hope</h1>
-        <p class="left-align s12 m12" style="font-size:17px;">Mission: Through the love of Jesus Christ, Raleigh Rescue Mission transforms lives of homeless men, women and children by ministering to their physical, emotional and spiritual needs. </p>
+        <h1>Project Hope</h1>
+        <p class="left-align s12 m12" style="font-size:17px;">Mission: Project HOPE delivers essential medicines and supplies, health expertise and medical training to respond to disaster, prevent disease, promote wellness and save lives around the globe. </p>
         </div>
       </div>
 
@@ -64,7 +64,7 @@
               <img src="css/imgs/maps.jpg">
             </div>
             <div class="card-content">
-              <p>For More Info: <br>Scott Thomas<br>Scott@gmail.com</p>
+              <p>For More Info: <br>Sharon Stone<br>sharon@projecthope.org</p>
             </div>
             <div class="card-action">
               <a href="https://www.google.com" target="_blank" style="color:#479ac4 !important;">Official Website</a>

@@ -79,8 +79,8 @@
     </div>
     <div class="carousel-item orphan white-text" href="#three!">
       <h5 style="padding-top: 10px;">Featured Charity</h5>
-      <h1>Hopeful Beginning</h1>
-      <p class="white-text" style="letter-spacing: .75px;">Our mission is to transforms lives of homeless men, women and children.</p>
+      <h1>Project Hope</h1>
+      <p class="white-text" style="letter-spacing: .75px;">We respond to disaster, prevent disease, promote wellness and save lives around the globe.</p>
       <a class="btn waves-effect tgPinkBG white-text darken-text-2" href="/orphan" style="bottom: -300px;">Learn More</a>
     </div>
   </div>
