@@ -63,7 +63,7 @@
     <div class="section white">
       <div class="row container">
           <div class="col s12 m4">
-          <div class="icon-block">
+          <div class="icon-block center">
             <img src="css/imgs/cat-food.jpg" alt="" style="height:100px;" class="circle responsive-img">
             <h5 class="center">First</h5>
             <p class="center">Find an item you want to donate.</p>
@@ -71,7 +71,7 @@
         </div>
 
         <div class="col s12 m4">
-          <div class="icon-block">
+          <div class="icon-block center">
             <img src="css/imgs/kitty.jpg" alt="" style="height:100px;"  class="circle responsive-img"> 
             <h5 class="center">Then</h5>
 
@@ -80,7 +80,7 @@
         </div>
 
         <div class="col s12 m4">
-          <div class="icon-block">
+          <div class="icon-block center">
             <img src="css/imgs/heart-pink.jpg" style="height:100px;"  alt="" class="circle responsive-img">
             <h5 class="center">Finally</h5>
 
