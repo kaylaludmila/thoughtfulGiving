@@ -23,7 +23,7 @@ Route::get('/welcome', 'HomeController@welcome');
 
 Route::resource('/', 'GuestController@index');
 
-Route::get('/dog', function () {
+Route::get('/fidosRescue', function () {
     return view('dog');
 });
 
@@ -31,11 +31,11 @@ Route::get('/charityRegister', function () {
     return view('charityRegister');
 });
 
-Route::get('/music', function () {
+Route::get('/musicForMany', function () {
     return view('music');
 });
 
-Route::get('/orphan', function () {
+Route::get('/projectHope', function () {
     return view('orphan');
 });
 

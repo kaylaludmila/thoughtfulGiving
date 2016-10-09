@@ -25,7 +25,7 @@
 <!-- navigation bar -->
 <nav>
   <div class="nav-wrapper">
-    <u1><a href="/" class="brand-logo logoBack">Thoughtful Giving</a></u1>
+    <u1><a href="/" class="brand-logo logoBac">Thoughtful Giving</a></u1>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
     <!-- Authentication Links -->
       @if (Auth::guest())
@@ -58,10 +58,8 @@
 <!-- Search panel -->
   <div class="nav-wrapper tgBlue">
   <br><br>
-  <h3 class="givingTxt center-align" style="margin-top:15%;">Giving Made Easy</h3>
+  <h3 id="searchBar" class="givingTxt center-align" style="margin-top:15%;">Giving Made Easy</h3>
   <br>
-
-
   <div class="input-field col s12" style="color:white">
   <form id="search" action='/searchResults' method="GET">
     <select id="searchForm" name="category">

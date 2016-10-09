@@ -9,27 +9,9 @@ $(document).ready(function(){
       $('.close').closeModal();
   });
 
-  $(".learnMore").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#aboutSwap").offset().top
-    }, 900);
-});
-
-  $("#brandClick").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#page-footer").offset().top
-    }, 900);
-});
-
 $(document).ready(function() {
     $('select').material_select();
   });
-
-$(".torequests").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#swapped").offset().top
-    }, 900);
-});
 
 
 ///// needed
@@ -62,6 +44,12 @@ $(document).ready(function() {
   });
 
 $("select").closest('.input-field').children('.select-wrapper').children("span").html("");
+
+  $(".searchClick").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#searchBar").offset().top
+    }, 900);
+});
 
 
  
