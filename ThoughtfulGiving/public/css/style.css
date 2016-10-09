@@ -21,6 +21,11 @@ body {
 	background-size: cover;
 }
 
+a:hover{
+	color:#ed4871 !important;
+}
+
+
 .container {
 	width: 85% !important;
 }
