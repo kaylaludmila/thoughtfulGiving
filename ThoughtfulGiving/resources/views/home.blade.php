@@ -58,6 +58,8 @@
                 @endforeach
             </tbody>
         </table>
+        <br>
+        <a class="waves-effect waves-light btn" style="background-color:#ed4871;">View Your Page</a>
     </div>
 </div>
 
