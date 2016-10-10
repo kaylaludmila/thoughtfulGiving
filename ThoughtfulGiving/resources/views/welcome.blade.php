@@ -11,7 +11,7 @@
       </div>
       <br>
        <div class="row center">
-            <a id="download-button" style="bottom: -300px" class="btn-large tgPinkBG waves-effect waves-light lighten-1 searchClick center-align">Start Searching</a>
+            <a id="download-button" style="bottom: -50px" class="btn-large tgPinkBG waves-effect waves-light lighten-1 searchClick center-align">Start Searching</a>
         </div>
 </div> 
 
