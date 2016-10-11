@@ -10,13 +10,13 @@
 	<table class="striped">
 	  <thead>
 		    <tr>
-		      <th data-field="id" style="font-size:30px; color:#479ac4;">These charities are accepting donations</th>
+		      <th data-field="id" style="font-size:30px; color:#479ac4;">These Non-Profits are accepting donations</th>
 		    </tr>
 		</thead>
 		<tbody>
 			@foreach ($company as $company)
 		    <tr>
-		        <td><a class="black-text tableSearch" href="/companyView/{{ $company->company }}" > {{ $company -> company }} </a><a class="btn waves-effect tgBlue white-text darken-text-2 right-align right" href="/companyView/{{ $company->company }}">Donate Now</a></td> 
+		        <td><a class="black-text tableSearch" href="/companyView/{{ $company->company }}" > {{ $company -> company }} </a><a class="btn waves-effect tgBlue white-text darken-text-2 right-align right" href="/companyView/{{ $company->company }}">View Page</a></td> 
 		    </tr>
 		  @endforeach
 

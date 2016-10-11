@@ -15,7 +15,7 @@
           </div>
       <div class="col s12 m12 l9 valign">
         <h1>Project Hope</h1>
-        <p class="left-align s12 m12" style="font-size:17px;">Mission: Project HOPE delivers essential medicines and supplies, health expertise and medical training to respond to disaster, prevent disease, promote wellness and save lives around the globe. </p>
+        <p class="left-align s12 m12" style="font-size:17px;"><strong>Mission: </strong>Project HOPE delivers essential medicines and supplies, health expertise and medical training to respond to disaster, prevent disease, promote wellness and save lives around the globe. </p>
         </div>
       </div>
 
@@ -51,7 +51,7 @@
         </tbody>
       </table>
       <br>
-      <a class="waves-effect waves-light btn" style="background-color:#ed4871;">Donate Funds</a>
+      <a class="waves-effect waves-light btn" href="https://www.paypal.com/home" target="_blank" style="background-color:#ed4871;">Donate Funds</a>
         </div>
 
         <div class="col s12 m1 l1">
@@ -64,7 +64,7 @@
               <img src="css/imgs/maps.jpg">
             </div>
             <div class="card-content">
-              <p>For More Info: <br>Sharon Stone<br>sharon@projecthope.org</p>
+              <p><strong>For more info: </strong> <br>Sharon Stone<br>sharon@projecthope.org</p>
             </div>
             <div class="card-action">
               <a href="https://www.google.com" target="_blank" style="color:#479ac4 !important;">Official Website</a>
