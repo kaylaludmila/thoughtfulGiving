@@ -33,6 +33,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 500px;
+	border-bottom: solid #ee6e73 24px;
 }
 
 .tableSearch:hover{
@@ -43,7 +44,7 @@ body {
 	background-color: rgba(0,0,0,0.1) !important;
 }
 
-.carousel-slider .carousel-item .slides li img {
+.carousel-slider .carousel-item .carousel .slides li img {
     background-size:100% auto;
     background-repeat: no-repeat;
 }

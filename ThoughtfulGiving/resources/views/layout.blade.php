@@ -25,7 +25,7 @@
 <!-- navigation bar -->
 <nav>
   <div class="nav-wrapper">
-    <u1><a href="/" class="brand-logo logoBac">Thoughtful Giving</a></u1>
+    <u1><a href="/" class="brand-logo logoBack">Thoughtful Giving</a></u1>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
     <!-- Authentication Links -->
       @if (Auth::guest())
@@ -33,8 +33,8 @@
           <li><a class="modal-trigger tgGreen" href=#loginModal>Login</a></li>
           <li><a class="tgGreen" href="/charityRegister">Register</a></li>
         </ul>
-          <li><a class="modal-trigger" href="#about">About TG</a></li>
-           <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Charity Portal<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a class="modal-trigger" href="#about">How It Works</a></li>
+           <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Non-Profit Portal<i class="material-icons right">arrow_drop_down</i></a></li>
       @else
          <li><a href="{{ url('/charityPortal') }}"> {{ Auth::user()->company }} </li></a>
          <li><a class="waves-effect waves-light btn modal-trigger tgBlue" href="{{ url('/logout') }}">Logout</a></li>
@@ -224,7 +224,7 @@
     </div>
   </div>
   <div class="modal-footer">
-    <a href="/charityRegister" class=" modal-action modal-close waves-effect waves-green btn-flat">Are you a non-profit? Create a page and get connected!</a>
+    <a href="/charityRegister" class=" modal-action modal-close waves-effect waves-green btn-flat">Are you a non-profit? Get connected!</a>
   </div>
 </div>
 

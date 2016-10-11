@@ -15,7 +15,7 @@
           </div>
       <div class="col s12 m12 l9 valign">
         <h1> Music for Many</h1>
-        <p class="left-align s12 m12" style="font-size:17px;">Mission: Our mission at Music for Many, Inc. has been providing artist in residency programs to students in temporary housing. We believe all students deserve and need music in their life.</p>
+        <p class="left-align s12 m12" style="font-size:17px;"><strong>Mission: </strong> Our mission at Music for Many, Inc. has been providing artist in residency programs to students in temporary housing. We believe all students deserve and need music in their life.</p>
         </div>
       </div>
 
@@ -51,7 +51,7 @@
         </tbody>
       </table>
       <br>
-      <a class="waves-effect waves-light btn" style="background-color:#ed4871;">Donate Funds</a>
+      <a class="waves-effect waves-light btn" href= "https://www.paypal.com/home" target="_blank" style="background-color:#ed4871;">Donate Funds</a>
         </div>
 
         <div class="col s12 m1 l1">
@@ -64,7 +64,7 @@
               <img src="css/imgs/maps.jpg">
             </div>
             <div class="card-content">
-              <p>For More Info: <br>Karyn Sue<br>Karyn@gmail.com</p>
+              <p><strong>For more info: </strong> <br>Karyn Sue<br>Karyn@gmail.com</p>
             </div>
             <div class="card-action">
               <a href="https://www.google.com" target="_blank" style="color:#479ac4 !important;">Official Website</a>
