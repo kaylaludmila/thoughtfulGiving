@@ -51,15 +51,15 @@ body {
 }
 
 .orphan{
-	background-image: url("imgs/orphanCar.jpg");
+	background-image: url("imgs/orphan1.jpg");
 }
 
 .music{
-	background-image: url("imgs/musicCar.jpg");
+	background-image: url("imgs/music1.jpg");
 }
 
 .dog{
-	background-image: url("imgs/dogCar.jpg");
+	background-image: url("imgs/dog1.jpg");
 }
 
 .img-container{ 
