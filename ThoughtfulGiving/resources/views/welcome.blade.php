@@ -32,7 +32,7 @@
         <img src="css/imgs/kitty.jpg" alt="" style="height:100px;"  class="circle responsive-img"> 
         <h5 class="center">Then</h5>
 
-        <p class="center">Search for a Non-Profit that needs that item.</p>
+        <p class="center">Search for a non-profit that needs that item.</p>
       </div>
     </div>
 
