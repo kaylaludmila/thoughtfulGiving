@@ -42,8 +42,8 @@ body {
 
 
 .carousel-slider .carousel-item .carousel .slides li img {
-    background-size:100% auto;
-    background-repeat: no-repeat;
+    background-size:100% auto !important;
+    background-repeat: no-repeat !important;
 }
 
 .container {
