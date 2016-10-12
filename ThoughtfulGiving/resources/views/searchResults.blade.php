@@ -10,7 +10,7 @@
 	<table class="striped">
 	  <thead>
 		    <tr>
-		      <th data-field="id" style="font-size:30px; color:#479ac4;">These Non-Profits are accepting donations</th>
+		      <th data-field="id" style="font-size:30px; color:#479ac4;">These non-profits are accepting donations</th>
 		    </tr>
 		</thead>
 		<tbody>
