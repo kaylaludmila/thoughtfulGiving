@@ -16,7 +16,7 @@
         </div>
       <div class="col s12 m12 l9 valign">
          <h1> {{ $theCompany->company }}</h1>
-          <p class="left-align s12 m12" style="font-size:17px;"><strong>Mission: </strong>{{ $theCompany-> mission }}</p>
+          <p class="left-align s12 m12" style="font-size:17px;"><b>Mission:</b>{{ $theCompany-> mission }}</p>
         </div>
       </div>
 
