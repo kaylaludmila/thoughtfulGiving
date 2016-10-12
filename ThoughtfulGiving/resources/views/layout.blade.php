@@ -64,10 +64,10 @@
   <form id="search" action='/searchResults' method="GET">
     <select id="searchForm" name="category">
       <option value="" disabled selected>What would you like to donate?</option>
-      <option value="food">Food</option>
-      <option value="clothing">Clothing</option>
-      <option value="petSupplies">Pet Supplies</option>
-      <option value="other">Other</option>
+      <option class="tgGreen" value="food">Food</option>
+      <option class="tgGreen" value="clothing">Clothing</option>
+      <option class="tgGreen" value="petSupplies">Pet Supplies</option>
+      <option class="tgGreen" value="other">Other</option>
     </select>
     <label></label>
     </form>
