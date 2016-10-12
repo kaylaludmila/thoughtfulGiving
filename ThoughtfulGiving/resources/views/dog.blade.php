@@ -15,7 +15,7 @@
           </div>
       <div class="col s12 m12 l9 valign">
         <h1> Fido's Rescue</h1>
-        <p class="left-align s12 m12" style="font-size:17px;"><strong>Mission: </strong> To provide new happy homes to stray, abandoned, and surrendered dogs.</p>
+        <p class="left-align s12 m12" style="font-size:17px;"><b>Mission: </b> To provide new happy homes to stray, abandoned, and surrendered dogs.</p>
         </div>
       </div>
 
@@ -64,7 +64,7 @@
               <img src="css/imgs/maps.jpg">
             </div>
             <div class="card-content">
-              <p><strong>For more info: </strong> <br>Karyn Sue<br>Karyn@gmail.com</p>
+              <p><b>For more info: </b> <br>Karyn Sue<br>Karyn@gmail.com</p>
             </div>
             <div class="card-action">
               <a href="https://www.google.com" target="_blank" style="color:#479ac4 !important;">Official Website</a>

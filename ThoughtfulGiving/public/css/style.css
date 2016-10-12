@@ -40,13 +40,10 @@ body {
 	color:#ed4871 !important;
 }
 
-.logoBack:hover{
-	background-color: rgba(0,0,0,0.1) !important;
-}
 
 .carousel-slider .carousel-item .carousel .slides li img {
-    background-size:100% auto;
-    background-repeat: no-repeat;
+    background-size:100% auto !important;
+    background-repeat: no-repeat !important;
 }
 
 .container {
@@ -54,15 +51,15 @@ body {
 }
 
 .orphan{
-	background-image: url("imgs/orphanCar.jpg");
+	background-image: url("imgs/orphan1.jpg");
 }
 
 .music{
-	background-image: url("imgs/musicCar.jpg");
+	background-image: url("imgs/music1.jpg");
 }
 
 .dog{
-	background-image: url("imgs/dogCar.jpg");
+	background-image: url("imgs/dog1.jpg");
 }
 
 .img-container{ 

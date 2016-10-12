@@ -16,7 +16,7 @@
         </div>
       <div class="col s12 m12 l9 valign">
          <h1> {{ $theCompany->company }}</h1>
-          <p class="left-align s12 m12" style="font-size:17px;"><strong>Mission: </strong>{{ $theCompany-> mission }}</p>
+          <p class="left-align s12 m12" style="font-size:17px;"><b>Mission:</b>{{ $theCompany-> mission }}</p>
         </div>
       </div>
 
@@ -56,7 +56,7 @@
               <img src="css/imgs/maps.jpg">
             </div>
             <div class="card-content">
-              <p><strong>For more info: </strong> {{ $theCompany -> firstName }} {{ $theCompany -> lastName }}<br> {{ $theCompany -> email }}</p>
+              <p><b>For more info: </b><br> {{ $theCompany -> firstName }} {{ $theCompany -> lastName }}<br> {{ $theCompany -> email }}</p>
             </div>
             <div class="card-action">
               <a style="color:#479ac4 !important;" href="https://www.google.com" target="_blank">Official Website</a>

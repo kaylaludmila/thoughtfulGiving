@@ -64,15 +64,15 @@
   <form id="search" action='/searchResults' method="GET">
     <select id="searchForm" name="category">
       <option value="" disabled selected>What would you like to donate?</option>
-      <option value="food">Food</option>
-      <option value="clothing">Clothing</option>
-      <option value="petSupplies">Pet Supplies</option>
-      <option value="other">Other</option>
+      <option class="tgGreen" value="food">Food</option>
+      <option class="tgGreen" value="clothing">Clothing</option>
+      <option class="tgGreen" value="petSupplies">Pet Supplies</option>
+      <option class="tgGreen" value="other">Other</option>
     </select>
     <label></label>
     </form>
     <br><br><br>
-    <div class="valign-wrapper s12 m3 l12">
+    <div class="valign-wrapper col s12 m6 l12">
       <img height="500" src="css/imgs/heart-pink.jpg" alt="heart" class="valign-wrapper responsive-img right" style="margin: auto; width: 80%;">
     </div>
 
@@ -201,7 +201,7 @@
           </div>
           <div class="col s10">
             <span class="black-text">
-              Search for a charity that needs that item.
+              Search for a non-profit that needs that item.
             </span>
           </div>
         </div>

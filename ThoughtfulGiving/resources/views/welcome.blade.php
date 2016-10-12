@@ -32,7 +32,7 @@
         <img src="css/imgs/kitty.jpg" alt="" style="height:100px;"  class="circle responsive-img"> 
         <h5 class="center">Then</h5>
 
-        <p class="center">Search for a Non-Profit that needs that item.</p>
+        <p class="center">Search for a non-profit that needs that item.</p>
       </div>
     </div>
 
@@ -76,7 +76,7 @@
     <div class="carousel-item orphan white-text" href="#three!">
       <h5 style="padding-top: 10px;">Featured Non-Profit</h5>
       <h1>Project Hope</h1>
-      <p class="white-text" style="letter-spacing: .75px;">We respond to disaster, prevent disease, promote wellness and save lives around the globe.</p>
+      <p class="white-text" style="letter-spacing: .75px;">We respond to disaster, prevent disease and promote wellness.</p>
       <a class="btn waves-effect tgPinkBG white-text darken-text-2" href="/projectHope" style="bottom: -300px;">Learn More</a>
     </div>
   </div>

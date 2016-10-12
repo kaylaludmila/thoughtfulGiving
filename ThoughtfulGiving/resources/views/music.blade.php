@@ -15,7 +15,7 @@
           </div>
       <div class="col s12 m12 l9 valign">
         <h1> Music for Many</h1>
-        <p class="left-align s12 m12" style="font-size:17px;"><strong>Mission: </strong> Our mission at Music for Many, Inc. has been providing artist in residency programs to students in temporary housing. We believe all students deserve and need music in their life.</p>
+        <p class="left-align s12 m12" style="font-size:17px;"><b>Mission: </b> Our mission at Music for Many, Inc. has been providing artist in residency programs to students in temporary housing. We believe all students deserve and need music in their life.</p>
         </div>
       </div>
 
@@ -64,7 +64,7 @@
               <img src="css/imgs/maps.jpg">
             </div>
             <div class="card-content">
-              <p><strong>For more info: </strong> <br>Karyn Sue<br>Karyn@gmail.com</p>
+              <p><b>For more info: </b> <br>Karyn Watson<br>Karyn@gmail.com</p>
             </div>
             <div class="card-action">
               <a href="https://www.google.com" target="_blank" style="color:#479ac4 !important;">Official Website</a>
