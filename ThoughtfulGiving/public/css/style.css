@@ -40,9 +40,6 @@ body {
 	color:#ed4871 !important;
 }
 
-.logoBack:hover{
-	background-color: rgba(0,0,0,0.1) !important;
-}
 
 .carousel-slider .carousel-item .carousel .slides li img {
     background-size:100% auto;
